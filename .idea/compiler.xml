@@ -8,12 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="nettyhello" />
         <module name="nettyhelloClient" />
+        <module name="springbootnetty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="nettyHello" target="1.5" />
       <module name="nettyhello" target="1.5" />
       <module name="nettyhelloClient" target="1.5" />
+      <module name="springbootnetty" target="1.8" />
+      <module name="springnetty" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

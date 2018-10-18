@@ -8,7 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/nettyhelloClient/pom.xml" />
         <option value="$PROJECT_DIR$/nettyhello/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringNetty/src/main/java/com/sun/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootnetty/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

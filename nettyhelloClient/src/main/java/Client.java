@@ -12,6 +12,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+
 public class Client {
     private EventLoopGroup workGroup = new NioEventLoopGroup();
     private Bootstrap bootstrap = new Bootstrap();
@@ -24,6 +25,8 @@ public class Client {
     public EventLoopGroup getWorkGroup(){
         return workGroup;
     }
+
+
 
 
     public Client(String host, int port){

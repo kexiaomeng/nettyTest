@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/nettyTest.iml" filepath="$PROJECT_DIR$/.idea/nettyTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettyhello/nettyhello.iml" filepath="$PROJECT_DIR$/nettyhello/nettyhello.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettyhelloClient/nettyhelloClient.iml" filepath="$PROJECT_DIR$/nettyhelloClient/nettyhelloClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootnetty/springbootnetty.iml" filepath="$PROJECT_DIR$/springbootnetty/springbootnetty.iml" />
     </modules>
   </component>
 </project>
