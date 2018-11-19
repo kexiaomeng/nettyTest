@@ -1,7 +1,7 @@
 /**
  * SpringContext工具类
  */
-package com.sun.nari.springbootnetty.com.sun.nari.springbootnetty.util;
+package com.sun.nari.springbootnetty.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

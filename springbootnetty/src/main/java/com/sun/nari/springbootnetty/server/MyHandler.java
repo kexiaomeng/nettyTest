@@ -1,4 +1,4 @@
-package com.sun.nari.springbootnetty.com.sun.nari.springbootnetty.server;
+package com.sun.nari.springbootnetty.server;
 
 import io.netty.channel.*;
 import org.springframework.stereotype.Component;
