@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.common.listen.model.GkCjRw">
+        <table name="GK_CJ_RW" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="cjmbBh">
+                <column name="CJMB_BH"/>
+            </id>
+            <basic name="cjmbMc">
+                <column name="CJMB_MC"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.vo.XtcsZzjsjz">
+        <table name="XTCS_ZZJSJZ" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="jsjId">
+                <column name="JSJ_ID"/>
+            </id>
+            <basic name="jsjip">
+                <column name="JSJIP"/>
+            </basic>
+            <basic name="jsjm">
+                <column name="JSJM"/>
+            </basic>
+            <basic name="jsjzlb">
+                <column name="JSJZLB"/>
+            </basic>
+            <basic name="jsjzt">
+                <column name="JSJZT"/>
+            </basic>
+            <basic name="sfxyjk">
+                <column name="SFXYJK"/>
+            </basic>
+            <basic name="jtdkh">
+                <column name="JTDKH"/>
+            </basic>
+            <basic name="yxj">
+                <column name="YXJ"/>
+            </basic>
+            <basic name="zdxcs">
+                <column name="ZDXCS"/>
+            </basic>
+            <basic name="wglx">
+                <column name="WGLX"/>
+            </basic>
+            <basic name="jsjbh">
+                <column name="JSJBH"/>
+            </basic>
+            <basic name="sq">
+                <column name="SQ"/>
+            </basic>
+            <basic name="jsjsj">
+                <column name="JSJSJ"/>
+            </basic>
+            <basic name="sychysj">
+                <column name="SYCHYSJ"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

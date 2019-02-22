@@ -20,30 +20,30 @@ public class Server {
     }
 
     public void bind(int port){
-//        try {
-//            bootstrap.group(bossGroup, workGroup)
-//                    .channel(NioServerSocketChannel.class)
-//                    .handler(new LoggingHandler(LogLevel.INFO))
-//                    .childHandler(new ChannelInitializer<SocketChannel>() {
-//                        protected void initChannel(SocketChannel socketChannel) throws Exception {
-//                            socketChannel.pipeline().addLast(new FixedLengthFrameDecoder(10));
-//                            socketChannel.pipeline().addLast(new StringDecoder());
-//                            socketChannel.pipeline().addLast(new StringEncoder());
-//                            socketChannel.pipeline().addLast(new MyHandler());
-//
-//                        }
-//                    })
-//                    .option(ChannelOption.SO_BACKLOG, 1024);
-//
-//            ChannelFuture future = bootstrap.bind(port).sync();
-//
-//            future.channel().closeFuture().sync();
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }finally {
-//            bossGroup.shutdownGracefully();
-//            workGroup.shutdownGracefully();
-//        }
+        try {
+            bootstrap.group(bossGroup, workGroup)
+                    .channel(NioServerSocketChannel.class)
+                    .handler(new LoggingHandler(LogLevel.INFO))
+                    .childHandler(new ChannelInitializer<SocketChannel>() {
+                        protected void initChannel(SocketChannel socketChannel) throws Exception {
+                            socketChannel.pipeline().addLast(new FixedLengthFrameDecoder(10));
+                            socketChannel.pipeline().addLast(new StringDecoder());
+                            socketChannel.pipeline().addLast(new StringEncoder());
+                            socketChannel.pipeline().addLast(new MyHandler());
+
+                        }
+                    })
+                    .option(ChannelOption.SO_BACKLOG, 1024);
+
+            ChannelFuture future = bootstrap.bind(port).sync();
+
+            future.channel().closeFuture().sync();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }finally {
+            bossGroup.shutdownGracefully();
+            workGroup.shutdownGracefully();
+        }
 
 
 

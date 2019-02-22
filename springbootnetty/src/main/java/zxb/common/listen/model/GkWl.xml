@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.common.listen.model.GkWl">
+        <table name="GK_WL" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="tdBh">
+                <column name="TD_BH"/>
+            </id>
+            <basic name="gyBh">
+                <column name="GY_BH"/>
+            </basic>
+            <basic name="tdMc">
+                <column name="TD_MC"/>
+            </basic>
+            <basic name="cjdBh">
+                <column name="CJD_BH"/>
+            </basic>
+            <basic name="zt">
+                <column name="ZT"/>
+            </basic>
+            <basic name="ipDz">
+                <column name="IP_DZ"/>
+            </basic>
+            <basic name="cs">
+                <column name="CS"/>
+            </basic>
+            <basic name="ipDk">
+                <column name="IP_DK"/>
+            </basic>
+            <basic name="ljFs">
+                <column name="LJ_FS"/>
+            </basic>
+            <basic name="csCs">
+                <column name="CS_CS"/>
+            </basic>
+            <basic name="txSj">
+                <column name="TX_SJ"/>
+            </basic>
+            <basic name="zdTxYc">
+                <column name="ZD_TX_YC"/>
+            </basic>
+            <basic name="qybz">
+                <column name="QYBZ"/>
+            </basic>
+            <basic name="yxfwBh">
+                <column name="YXFW_BH"/>
+            </basic>
+            <basic name="yxj">
+                <column name="YXJ"/>
+            </basic>
+            <basic name="zhCgSj">
+                <column name="ZH_CG_SJ"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.common.listen.model.GkDlcdzd">
+        <table name="GK_DLCDZD" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="zdBh">
+                <column name="ZD_BH"/>
+            </id>
+            <basic name="zdMc">
+                <column name="ZD_MC"/>
+            </basic>
+            <basic name="cjdBh">
+                <column name="CJD_BH"/>
+            </basic>
+            <basic name="zdLx">
+                <column name="ZD_LX"/>
+            </basic>
+            <basic name="zdDz">
+                <column name="ZD_DZ"/>
+            </basic>
+            <basic name="yhm">
+                <column name="YHM"/>
+            </basic>
+            <basic name="mm">
+                <column name="MM"/>
+            </basic>
+            <basic name="sccjBh">
+                <column name="SCCJ_BH"/>
+            </basic>
+            <basic name="xhBh">
+                <column name="XH_BH"/>
+            </basic>
+            <basic name="ccRl">
+                <column name="CC_RL"/>
+            </basic>
+            <basic name="zt">
+                <column name="ZT"/>
+            </basic>
+            <basic name="qybz">
+                <column name="QYBZ"/>
+            </basic>
+            <basic name="gyBh">
+                <column name="GY_BH"/>
+            </basic>
+            <basic name="sb1">
+                <column name="SB1"/>
+            </basic>
+            <basic name="sb2">
+                <column name="SB2"/>
+            </basic>
+            <basic name="sb3">
+                <column name="SB3"/>
+            </basic>
+            <basic name="sb4">
+                <column name="SB4"/>
+            </basic>
+            <basic name="sb5">
+                <column name="SB5"/>
+            </basic>
+            <basic name="sb6">
+                <column name="SB6"/>
+            </basic>
+            <basic name="sb7">
+                <column name="SB7"/>
+            </basic>
+            <basic name="sb8">
+                <column name="SB8"/>
+            </basic>
+            <basic name="sb9">
+                <column name="SB9"/>
+            </basic>
+            <basic name="sb10">
+                <column name="SB10"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

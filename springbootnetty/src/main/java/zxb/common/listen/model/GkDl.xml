@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.common.listen.model.GkDl">
+        <table name="GK_DL" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="dlBh">
+                <column name="DL_BH"/>
+            </id>
+            <basic name="dlMc">
+                <column name="DL_MC"/>
+            </basic>
+            <basic name="dlLx">
+                <column name="DL_LX"/>
+            </basic>
+            <basic name="dlDz">
+                <column name="DL_DZ"/>
+            </basic>
+            <basic name="dbBh">
+                <column name="DB_BH"/>
+            </basic>
+            <basic name="sfXzJy">
+                <column name="SF_XZ_JY"/>
+            </basic>
+            <basic name="xzJyJg">
+                <column name="XZ_JY_JG"/>
+            </basic>
+            <basic name="xzXx">
+                <column name="XZ_XX"/>
+            </basic>
+            <basic name="xzSx">
+                <column name="XZ_SX"/>
+            </basic>
+            <basic name="xzJySb">
+                <column name="XZ_JY_SB"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

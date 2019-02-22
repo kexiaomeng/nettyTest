@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.vo.CjZdssgk">
+        <table name="CJ_ZDSSGK" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="zdzcbh">
+                <column name="ZDZCBH"/>
+            </id>
+            <basic name="txfs">
+                <column name="TXFS"/>
+            </basic>
+            <basic name="zdtxip">
+                <column name="ZDTXIP"/>
+            </basic>
+            <basic name="simkh">
+                <column name="SIMKH"/>
+            </basic>
+            <basic name="dqfh">
+                <column name="DQFH"/>
+            </basic>
+            <basic name="fhsj">
+                <column name="FHSJ"/>
+            </basic>
+            <basic name="sjbh">
+                <column name="SJBH"/>
+            </basic>
+            <basic name="sjsj">
+                <column name="SJSJ"/>
+            </basic>
+            <basic name="sfzx">
+                <column name="SFZX"/>
+            </basic>
+            <basic name="zxlxsj">
+                <column name="ZXLXSJ"/>
+            </basic>
+            <basic name="wgip">
+                <column name="WGIP"/>
+            </basic>
+            <basic name="wgdk">
+                <column name="WGDK"/>
+            </basic>
+            <basic name="ct">
+                <column name="CT"/>
+            </basic>
+            <basic name="pt">
+                <column name="PT"/>
+            </basic>
+            <basic name="sjjssj">
+                <column name="SJJSSJ"/>
+            </basic>
+            <basic name="zjzfh">
+                <column name="ZJZFH"/>
+            </basic>
+            <basic name="zjzfhsj">
+                <column name="ZJZFHSJ"/>
+            </basic>
+            <basic name="zddz">
+                <column name="ZDDZ"/>
+            </basic>
+            <basic name="gddwbm">
+                <column name="GDDWBM"/>
+            </basic>
+            <basic name="zdip">
+                <column name="ZDIP"/>
+            </basic>
+            <basic name="zddk">
+                <column name="ZDDK"/>
+            </basic>
+            <basic name="dycrksj">
+                <column name="DYCRKSJ"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

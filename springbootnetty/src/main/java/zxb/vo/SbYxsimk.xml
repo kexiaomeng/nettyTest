@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.vo.SbYxsimk">
+        <table name="SB_YXSIMK" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="simkyxbs">
+                <column name="SIMKYXBS"/>
+            </id>
+            <basic name="simxlh">
+                <column name="SIMXLH"/>
+            </basic>
+            <basic name="simkzcbh">
+                <column name="SIMKZCBH"/>
+            </basic>
+            <basic name="sjhm">
+                <column name="SJHM"/>
+            </basic>
+            <basic name="ipdz">
+                <column name="IPDZ"/>
+            </basic>
+            <basic name="sblbdm">
+                <column name="SBLBDM"/>
+            </basic>
+            <basic name="sbbs">
+                <column name="SBBS"/>
+            </basic>
+            <basic name="sbzcbh">
+                <column name="SBZCBH"/>
+            </basic>
+            <basic name="yysdm">
+                <column name="YYSDM"/>
+            </basic>
+            <basic name="txwl">
+                <column name="TXWL"/>
+            </basic>
+            <basic name="gddwbm">
+                <column name="GDDWBM"/>
+            </basic>
+            <basic name="czsj">
+                <column name="CZSJ"/>
+            </basic>
+            <basic name="cjsj">
+                <column name="CJSJ"/>
+            </basic>
+            <basic name="simrl">
+                <column name="SIMRL"/>
+            </basic>
+            <basic name="simkzczt">
+                <column name="SIMKZCZT"/>
+            </basic>
+            <basic name="drpch">
+                <column name="DRPCH"/>
+            </basic>
+            <basic name="dhpch">
+                <column name="DHPCH"/>
+            </basic>
+            <basic name="zdzcbs">
+                <column name="ZDZCBS"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyBatisTest/MyBatisTest.iml" filepath="$PROJECT_DIR$/MyBatisTest/MyBatisTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbotest1/dubbotest1.iml" filepath="$PROJECT_DIR$/dubbotest1/dubbotest1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/nettyTest.iml" filepath="$PROJECT_DIR$/.idea/nettyTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettyhello/nettyhello.iml" filepath="$PROJECT_DIR$/nettyhello/nettyhello.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettyhelloClient/nettyhelloClient.iml" filepath="$PROJECT_DIR$/nettyhelloClient/nettyhelloClient.iml" />

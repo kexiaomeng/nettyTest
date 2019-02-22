@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.common.listen.model.GkCjd">
+        <table name="GK_CJD" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="cjdBh">
+                <column name="CJD_BH"/>
+            </id>
+            <basic name="cjdMc">
+                <column name="CJD_MC"/>
+            </basic>
+            <basic name="cjzBh">
+                <column name="CJZ_BH"/>
+            </basic>
+            <basic name="czBh">
+                <column name="CZ_BH"/>
+            </basic>
+            <basic name="rwmbBh">
+                <column name="RWMB_BH"/>
+            </basic>
+            <basic name="cjJg">
+                <column name="CJ_JG"/>
+            </basic>
+            <basic name="csYc">
+                <column name="CS_YC"/>
+            </basic>
+            <basic name="dqBh">
+                <column name="DQ_BH"/>
+            </basic>
+            <basic name="dqZt">
+                <column name="DQ_ZT"/>
+            </basic>
+            <basic name="cjdDz">
+                <column name="CJD_DZ"/>
+            </basic>
+            <basic name="yxj">
+                <column name="YXJ"/>
+            </basic>
+            <basic name="zhCjSj">
+                <column name="ZH_CJ_SJ"/>
+            </basic>
+            <basic name="txFs">
+                <column name="TX_FS"/>
+            </basic>
+            <basic name="jgLx">
+                <column name="JG_LX"/>
+            </basic>
+            <basic name="cshSj">
+                <column name="CSH_SJ"/>
+            </basic>
+            <basic name="jgsjDw">
+                <column name="JGSJ_DW"/>
+            </basic>
+            <basic name="yxfwBh">
+                <column name="YXFW_BH"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.vo.ZdcsGgPtrw">
+        <table name="ZDCS_GG_PTRW" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <basic name="gddwbh">
+                <column name="GDDWBH"/>
+            </basic>
+            <basic name="zdzcbh">
+                <column name="ZDZCBH"/>
+            </basic>
+            <basic name="rwh">
+                <column name="RWH"/>
+            </basic>
+            <basic name="xfztbm">
+                <column name="XFZTBM"/>
+            </basic>
+            <basic name="czy">
+                <column name="CZY"/>
+            </basic>
+            <basic name="csbcsj">
+                <column name="CSBCSJ"/>
+            </basic>
+            <basic name="xfsj">
+                <column name="XFSJ"/>
+            </basic>
+            <basic name="zccgsj">
+                <column name="ZCCGSJ"/>
+            </basic>
+            <basic name="rwzsD">
+                <column name="RWZS_D"/>
+            </basic>
+            <basic name="yxxbsD">
+                <column name="YXXBS_D"/>
+            </basic>
+            <basic name="rwhD">
+                <column name="RWH_D"/>
+            </basic>
+            <basic name="rwlxD">
+                <column name="RWLX_D"/>
+            </basic>
+            <basic name="cyksjzsjD">
+                <column name="CYKSJZSJ_D"/>
+            </basic>
+            <basic name="cyksjzsjdwD">
+                <column name="CYKSJZSJDW_D"/>
+            </basic>
+            <basic name="cyjgsjD">
+                <column name="CYJGSJ_D"/>
+            </basic>
+            <basic name="cyjgsjdwD">
+                <column name="CYJGSJDW_D"/>
+            </basic>
+            <basic name="ssjzsjD">
+                <column name="SSJZSJ_D"/>
+            </basic>
+            <basic name="ssjzsjdwD">
+                <column name="SSJZSJDW_D"/>
+            </basic>
+            <basic name="ssjgsjD">
+                <column name="SSJGSJ_D"/>
+            </basic>
+            <basic name="ssjgsjdwD">
+                <column name="SSJGSJDW_D"/>
+            </basic>
+            <basic name="sssjplD">
+                <column name="SSSJPL_D"/>
+            </basic>
+            <basic name="cldhD">
+                <column name="CLDH_D"/>
+            </basic>
+            <basic name="rwbcdsD">
+                <column name="RWBCDS_D"/>
+            </basic>
+            <basic name="rwzxcsD">
+                <column name="RWZXCS_D"/>
+            </basic>
+            <basic name="sjxgsD">
+                <column name="SJXGS_D"/>
+            </basic>
+            <basic name="sjxD">
+                <column name="SJX_D"/>
+            </basic>
+            <basic name="ptlD">
+                <column name="PTL_D"/>
+            </basic>
+            <basic name="cssjD">
+                <column name="CSSJ_D"/>
+            </basic>
+            <basic name="tzzjD">
+                <column name="TZZJ_D"/>
+            </basic>
+            <basic name="jqksD">
+                <column name="JQKS_D"/>
+            </basic>
+            <basic name="jqcdD">
+                <column name="JQCD_D"/>
+            </basic>
+            <basic name="zjmlcdD">
+                <column name="ZJMLCD_D"/>
+            </basic>
+            <basic name="zjmlnrD">
+                <column name="ZJMLNR_D"/>
+            </basic>
+            <basic name="rwzsZ">
+                <column name="RWZS_Z"/>
+            </basic>
+            <basic name="yxxbsZ">
+                <column name="YXXBS_Z"/>
+            </basic>
+            <basic name="rwhZ">
+                <column name="RWH_Z"/>
+            </basic>
+            <basic name="rwlxZ">
+                <column name="RWLX_Z"/>
+            </basic>
+            <basic name="cyksjzsjZ">
+                <column name="CYKSJZSJ_Z"/>
+            </basic>
+            <basic name="cyksjzsjdwZ">
+                <column name="CYKSJZSJDW_Z"/>
+            </basic>
+            <basic name="cyjgsjZ">
+                <column name="CYJGSJ_Z"/>
+            </basic>
+            <basic name="cyjgsjdwZ">
+                <column name="CYJGSJDW_Z"/>
+            </basic>
+            <basic name="ssjzsjZ">
+                <column name="SSJZSJ_Z"/>
+            </basic>
+            <basic name="ssjzsjdwZ">
+                <column name="SSJZSJDW_Z"/>
+            </basic>
+            <basic name="ssjgsjZ">
+                <column name="SSJGSJ_Z"/>
+            </basic>
+            <basic name="ssjgsjdwZ">
+                <column name="SSJGSJDW_Z"/>
+            </basic>
+            <basic name="sssjplZ">
+                <column name="SSSJPL_Z"/>
+            </basic>
+            <basic name="cldhZ">
+                <column name="CLDH_Z"/>
+            </basic>
+            <basic name="rwbcdsZ">
+                <column name="RWBCDS_Z"/>
+            </basic>
+            <basic name="rwzxcsZ">
+                <column name="RWZXCS_Z"/>
+            </basic>
+            <basic name="sjxgsZ">
+                <column name="SJXGS_Z"/>
+            </basic>
+            <basic name="sjxZ">
+                <column name="SJX_Z"/>
+            </basic>
+            <basic name="ptlZ">
+                <column name="PTL_Z"/>
+            </basic>
+            <basic name="cssjZ">
+                <column name="CSSJ_Z"/>
+            </basic>
+            <basic name="tzzjZ">
+                <column name="TZZJ_Z"/>
+            </basic>
+            <basic name="jqksZ">
+                <column name="JQKS_Z"/>
+            </basic>
+            <basic name="jqcdZ">
+                <column name="JQCD_Z"/>
+            </basic>
+            <basic name="zjmlcdZ">
+                <column name="ZJMLCD_Z"/>
+            </basic>
+            <basic name="zjmlnrZ">
+                <column name="ZJMLNR_Z"/>
+            </basic>
+            <basic name="rwzsL">
+                <column name="RWZS_L"/>
+            </basic>
+            <basic name="yxxbsL">
+                <column name="YXXBS_L"/>
+            </basic>
+            <basic name="rwhL">
+                <column name="RWH_L"/>
+            </basic>
+            <basic name="rwlxL">
+                <column name="RWLX_L"/>
+            </basic>
+            <basic name="cyksjzsjL">
+                <column name="CYKSJZSJ_L"/>
+            </basic>
+            <basic name="cyksjzsjdwL">
+                <column name="CYKSJZSJDW_L"/>
+            </basic>
+            <basic name="cyjgsjL">
+                <column name="CYJGSJ_L"/>
+            </basic>
+            <basic name="cyjgsjdwL">
+                <column name="CYJGSJDW_L"/>
+            </basic>
+            <basic name="ssjzsjL">
+                <column name="SSJZSJ_L"/>
+            </basic>
+            <basic name="ssjzsjdwL">
+                <column name="SSJZSJDW_L"/>
+            </basic>
+            <basic name="ssjgsjL">
+                <column name="SSJGSJ_L"/>
+            </basic>
+            <basic name="ssjgsjdwL">
+                <column name="SSJGSJDW_L"/>
+            </basic>
+            <basic name="sssjplL">
+                <column name="SSSJPL_L"/>
+            </basic>
+            <basic name="cldhL">
+                <column name="CLDH_L"/>
+            </basic>
+            <basic name="rwbcdsL">
+                <column name="RWBCDS_L"/>
+            </basic>
+            <basic name="rwzxcsL">
+                <column name="RWZXCS_L"/>
+            </basic>
+            <basic name="sjxgsL">
+                <column name="SJXGS_L"/>
+            </basic>
+            <basic name="sjxL">
+                <column name="SJX_L"/>
+            </basic>
+            <basic name="ptlL">
+                <column name="PTL_L"/>
+            </basic>
+            <basic name="cssjL">
+                <column name="CSSJ_L"/>
+            </basic>
+            <basic name="tzzjL">
+                <column name="TZZJ_L"/>
+            </basic>
+            <basic name="jqksL">
+                <column name="JQKS_L"/>
+            </basic>
+            <basic name="jqcdL">
+                <column name="JQCD_L"/>
+            </basic>
+            <basic name="zjmlcdL">
+                <column name="ZJMLCD_L"/>
+            </basic>
+            <basic name="zjmlnrL">
+                <column name="ZJMLNR_L"/>
+            </basic>
+            <basic name="zddz">
+                <column name="ZDDZ"/>
+            </basic>
+            <basic name="gybbh">
+                <column name="GYBBH"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

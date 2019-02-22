@@ -6,12 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dubbotest1" />
+        <module name="MyBatisTest" />
         <module name="nettyhello" />
         <module name="nettyhelloClient" />
         <module name="springbootnetty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbotest" target="1.5" />
+      <module name="dubbotest1" target="1.8" />
+      <module name="dubbotest2" target="1.5" />
+      <module name="MyBatisTest" target="7" />
       <module name="nettyHello" target="1.5" />
       <module name="nettyhello" target="1.5" />
       <module name="nettyhelloClient" target="1.5" />

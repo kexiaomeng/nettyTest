@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.vo.RwpzRwbc">
+        <table name="RWPZ_RWBC" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="rwxl">
+                <column name="RWXL"/>
+            </id>
+            <basic name="zdlx">
+                <column name="ZDLX"/>
+            </basic>
+            <basic name="rwh">
+                <column name="RWH"/>
+            </basic>
+            <basic name="cjlx">
+                <column name="CJLX"/>
+            </basic>
+            <basic name="rwmbbs">
+                <column name="RWMBBS"/>
+            </basic>
+            <basic name="bccxsj">
+                <column name="BCCXSJ"/>
+            </basic>
+            <basic name="bccs">
+                <column name="BCCS"/>
+            </basic>
+            <basic name="bcsj">
+                <column name="BCSJ"/>
+            </basic>
+            <basic name="bcsjms">
+                <column name="BCSJMS"/>
+            </basic>
+            <basic name="czrq">
+                <column name="CZRQ"/>
+            </basic>
+            <basic name="czybh">
+                <column name="CZYBH"/>
+            </basic>
+            <basic name="sfyx">
+                <column name="SFYX"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- mapper:根标签，namespace：命名空间，随便写，一般保证命名空间唯一 -->
+<mapper namespace="com.nari.sun.mybatis.SbDao">
+
+    <!-- statement，内容：sql语句。id：唯一标识，随便写，在同一个命名空间下保持唯一
+       resultType：sql语句查询结果集的封装类型,tb_user即为数据库中的表
+     -->
+    <select id="getSbSecretekeyByZddz" resultType="SbSecreteKey">
+      select * from SB_SECRETEKEY where ZDDZ = #{zddz}
+   </select>
+
+    <select id="getAll" resultType="SbSecreteKey">
+      select * from SB_SECRETEKEY
+   </select>
+
+    <select id="selectById" resultType="SbSecreteKey">
+        select *from SB_SECRETEKEY
+        where zddz in
+        <foreach collection="list" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </select>
+
+
+    <insert id="insertSb" parameterType="SbSecreteKey">
+      insert into SB_SECRETEKEY (ZDDZ,ISSECRETE,SECRETEKEY) values(
+      #{zddz},
+      #{issecrete},
+      #{secretekey})
+   </insert>
+    
+    <update id="update" parameterType="SbSecreteKey">
+        update SB_SECRETEKEY set ISSECRETE = #{issecrete} ,SECRETEKEY = #{secretekey} where zddz = #{zddz}
+    </update>
+
+    <update id="batchUpdate" parameterType="java.util.List" >
+        <foreach collection="list" item="cus" index="index" open="" close="" separator=";">
+            update SB_SECRETEKEY
+            <trim prefix="set" suffixOverrides=",">
+
+                <if test="cus.secretekey != null">
+                       secretekey = #{cus.secretekey},
+                </if>
+
+                <if test="cus.issecrete != null">
+                    issecrete = #{cus.issecrete},
+                </if>
+
+            </trim>
+
+            <where>
+                 zddz = #{cus.zddz}
+
+            </where>
+        </foreach>
+    </update>
+</mapper>

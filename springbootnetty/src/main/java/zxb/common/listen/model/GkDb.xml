@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.common.listen.model.GkDb">
+        <table name="GK_DB" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="dbBh">
+                <column name="DB_BH"/>
+            </id>
+            <basic name="dbMc">
+                <column name="DB_MC"/>
+            </basic>
+            <basic name="dbBm">
+                <column name="DB_BM"/>
+            </basic>
+            <basic name="jldBh">
+                <column name="JLD_BH"/>
+            </basic>
+            <basic name="zfb">
+                <column name="ZFB"/>
+            </basic>
+            <basic name="dbSxh">
+                <column name="DB_SXH"/>
+            </basic>
+            <basic name="cjdBh">
+                <column name="CJD_BH"/>
+            </basic>
+            <basic name="dbDz">
+                <column name="DB_DZ"/>
+            </basic>
+            <basic name="yhm">
+                <column name="YHM"/>
+            </basic>
+            <basic name="mm">
+                <column name="MM"/>
+            </basic>
+            <basic name="sccjBh">
+                <column name="SCCJ_BH"/>
+            </basic>
+            <basic name="dbXh">
+                <column name="DB_XH"/>
+            </basic>
+            <basic name="scrq">
+                <column name="SCRQ"/>
+            </basic>
+            <basic name="qybz">
+                <column name="QYBZ"/>
+            </basic>
+            <basic name="tySj">
+                <column name="TY_SJ"/>
+            </basic>
+            <basic name="sb1">
+                <column name="SB1"/>
+            </basic>
+            <basic name="sb2">
+                <column name="SB2"/>
+            </basic>
+            <basic name="sb3">
+                <column name="SB3"/>
+            </basic>
+            <basic name="sb4">
+                <column name="SB4"/>
+            </basic>
+            <basic name="sb5">
+                <column name="SB5"/>
+            </basic>
+            <basic name="sb6">
+                <column name="SB6"/>
+            </basic>
+            <basic name="sb7">
+                <column name="SB7"/>
+            </basic>
+            <basic name="sb8">
+                <column name="SB8"/>
+            </basic>
+            <basic name="sb9">
+                <column name="SB9"/>
+            </basic>
+            <basic name="sb10">
+                <column name="SB10"/>
+            </basic>
+            <basic name="sb11">
+                <column name="SB11"/>
+            </basic>
+            <basic name="sb12">
+                <column name="SB12"/>
+            </basic>
+            <basic name="sb13">
+                <column name="SB13"/>
+            </basic>
+            <basic name="sb14">
+                <column name="SB14"/>
+            </basic>
+            <basic name="sb15">
+                <column name="SB15"/>
+            </basic>
+            <basic name="sb16">
+                <column name="SB16"/>
+            </basic>
+            <basic name="sb17">
+                <column name="SB17"/>
+            </basic>
+            <basic name="sb18">
+                <column name="SB18"/>
+            </basic>
+            <basic name="sb19">
+                <column name="SB19"/>
+            </basic>
+            <basic name="sb20">
+                <column name="SB20"/>
+            </basic>
+            <basic name="zt">
+                <column name="ZT"/>
+            </basic>
+            <basic name="zhLhSj">
+                <column name="ZH_LH_SJ"/>
+            </basic>
+            <basic name="ycCjSj">
+                <column name="YC_CJ_SJ"/>
+            </basic>
+            <basic name="ssYh">
+                <column name="SS_YH"/>
+            </basic>
+            <basic name="cbDh">
+                <column name="CB_DH"/>
+            </basic>
+            <basic name="xz1">
+                <column name="XZ1"/>
+            </basic>
+            <basic name="xz2">
+                <column name="XZ2"/>
+            </basic>
+            <basic name="xz3">
+                <column name="XZ3"/>
+            </basic>
+            <basic name="xz4">
+                <column name="XZ4"/>
+            </basic>
+            <basic name="xz5">
+                <column name="XZ5"/>
+            </basic>
+            <basic name="xz6">
+                <column name="XZ6"/>
+            </basic>
+            <basic name="zhDlTjSj">
+                <column name="ZH_DL_TJ_SJ"/>
+            </basic>
+            <basic name="tjZq">
+                <column name="TJ_ZQ"/>
+            </basic>
+            <basic name="dlhgq1">
+                <column name="DLHGQ1"/>
+            </basic>
+            <basic name="dlhgq2">
+                <column name="DLHGQ2"/>
+            </basic>
+            <basic name="dyhgq1">
+                <column name="DYHGQ1"/>
+            </basic>
+            <basic name="dyhgq2">
+                <column name="DYHGQ2"/>
+            </basic>
+            <basic name="jfzq1">
+                <column name="JFZQ1"/>
+            </basic>
+            <basic name="jfzq2">
+                <column name="JFZQ2"/>
+            </basic>
+            <basic name="jfzq3">
+                <column name="JFZQ3"/>
+            </basic>
+            <basic name="jfzq4">
+                <column name="JFZQ4"/>
+            </basic>
+            <basic name="jfzq5">
+                <column name="JFZQ5"/>
+            </basic>
+            <basic name="jfzq6">
+                <column name="JFZQ6"/>
+            </basic>
+            <basic name="zhFlTjSj">
+                <column name="ZH_FL_TJ_SJ"/>
+            </basic>
+            <basic name="jd1">
+                <column name="JD1"/>
+            </basic>
+            <basic name="jd2">
+                <column name="JD2"/>
+            </basic>
+            <basic name="jd3">
+                <column name="JD3"/>
+            </basic>
+            <basic name="jd4">
+                <column name="JD4"/>
+            </basic>
+            <basic name="jd5">
+                <column name="JD5"/>
+            </basic>
+            <basic name="jd6">
+                <column name="JD6"/>
+            </basic>
+            <basic name="clFf">
+                <column name="CL_FF"/>
+            </basic>
+            <basic name="mcCl">
+                <column name="MC_CL"/>
+            </basic>
+            <basic name="mcXs">
+                <column name="MC_XS"/>
+            </basic>
+            <basic name="gyBh">
+                <column name="GY_BH"/>
+            </basic>
+            <basic name="sjSx">
+                <column name="SJ_SX"/>
+            </basic>
+            <basic name="sjXx">
+                <column name="SJ_XX"/>
+            </basic>
+            <basic name="jl1">
+                <column name="JL1"/>
+            </basic>
+            <basic name="jl2">
+                <column name="JL2"/>
+            </basic>
+            <basic name="jl3">
+                <column name="JL3"/>
+            </basic>
+            <basic name="jl4">
+                <column name="JL4"/>
+            </basic>
+            <basic name="jl5">
+                <column name="JL5"/>
+            </basic>
+            <basic name="jl6">
+                <column name="JL6"/>
+            </basic>
+            <basic name="jl7">
+                <column name="JL7"/>
+            </basic>
+            <basic name="jl8">
+                <column name="JL8"/>
+            </basic>
+            <basic name="jl9">
+                <column name="JL9"/>
+            </basic>
+            <basic name="jl10">
+                <column name="JL10"/>
+            </basic>
+            <basic name="sfPhdJy">
+                <column name="SF_PHD_JY"/>
+            </basic>
+            <basic name="phdJySb">
+                <column name="PHD_JY_SB"/>
+            </basic>
+            <basic name="phdJyl">
+                <column name="PHD_JYL"/>
+            </basic>
+            <basic name="phdJyJg">
+                <column name="PHD_JY_JG"/>
+            </basic>
+            <basic name="phdJyCs">
+                <column name="PHD_JY_CS"/>
+            </basic>
+            <basic name="sfLdJy">
+                <column name="SF_LD_JY"/>
+            </basic>
+            <basic name="ldJyLx">
+                <column name="LD_JY_LX"/>
+            </basic>
+            <basic name="ldJySb">
+                <column name="LD_JY_SB"/>
+            </basic>
+            <basic name="dbPzBh">
+                <column name="DB_PZ_BH"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="zxb.vo.KhCldzb">
+        <table name="KH_CLDZB" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="id">
+                <column name="ID"/>
+            </id>
+            <basic name="gddwbh">
+                <column name="GDDWBH"/>
+            </basic>
+            <basic name="yhbh">
+                <column name="YHBH"/>
+            </basic>
+            <basic name="zdzcbh">
+                <column name="ZDZCBH"/>
+            </basic>
+            <basic name="zddz">
+                <column name="ZDDZ"/>
+            </basic>
+            <basic name="dnbbs">
+                <column name="DNBBS"/>
+            </basic>
+            <basic name="dnbzch">
+                <column name="DNBZCH"/>
+            </basic>
+            <basic name="txdz">
+                <column name="TXDZ"/>
+            </basic>
+            <basic name="sjly">
+                <column name="SJLY"/>
+            </basic>
+            <basic name="cldh">
+                <column name="CLDH"/>
+            </basic>
+            <basic name="pt">
+                <column name="PT"/>
+            </basic>
+            <basic name="ct">
+                <column name="CT"/>
+            </basic>
+            <basic name="yhfl">
+                <column name="YHFL"/>
+            </basic>
+            <basic name="cyjsfs">
+                <column name="CYJSFS"/>
+            </basic>
+            <basic name="flpy">
+                <column name="FLPY"/>
+            </basic>
+            <basic name="cjrq">
+                <column name="CJRQ"/>
+            </basic>
+            <basic name="zhbl">
+                <column name="ZHBL"/>
+            </basic>
+            <basic name="cjdkh">
+                <column name="CJDKH"/>
+            </basic>
+            <basic name="btl">
+                <column name="BTL"/>
+            </basic>
+            <basic name="txgy">
+                <column name="TXGY"/>
+            </basic>
+            <basic name="djzqs">
+                <column name="DJZQS"/>
+            </basic>
+            <basic name="djfs">
+                <column name="DJFS"/>
+            </basic>
+            <basic name="dnbjlfs">
+                <column name="DNBJLFS"/>
+            </basic>
+            <basic name="yhjlfs">
+                <column name="YHJLFS"/>
+            </basic>
+            <basic name="cjqbs">
+                <column name="CJQBS"/>
+            </basic>
+            <basic name="jxfs">
+                <column name="JXFS"/>
+            </basic>
+            <basic name="dnbdy">
+                <column name="DNBDY"/>
+            </basic>
+            <basic name="dnbws">
+                <column name="DNBWS"/>
+            </basic>
+            <basic name="zdcj">
+                <column name="ZDCJ"/>
+            </basic>
+            <basic name="zdlx">
+                <column name="ZDLX"/>
+            </basic>
+            <basic name="txfs">
+                <column name="TXFS"/>
+            </basic>
+            <basic name="cjqzch">
+                <column name="CJQZCH"/>
+            </basic>
+            <basic name="rldj">
+                <column name="RLDJ"/>
+            </basic>
+            <basic name="tqbs">
+                <column name="TQBS"/>
+            </basic>
+            <basic name="zfbbz">
+                <column name="ZFBBZ"/>
+            </basic>
+            <basic name="yxztdm">
+                <column name="YXZTDM"/>
+            </basic>
+            <basic name="zdbs">
+                <column name="ZDBS"/>
+            </basic>
+            <basic name="zdzcbs">
+                <column name="ZDZCBS"/>
+            </basic>
+            <basic name="cldlx">
+                <column name="CLDLX"/>
+            </basic>
+            <basic name="yxbs">
+                <column name="YXBS"/>
+            </basic>
+            <basic name="cjqtxdz">
+                <column name="CJQTXDZ"/>
+            </basic>
+            <basic name="rtuid">
+                <column name="RTUID"/>
+            </basic>
+            <basic name="sjclbj">
+                <column name="SJCLBJ"/>
+            </basic>
+            <basic name="yxbyqbs">
+                <column name="YXBYQBS"/>
+            </basic>
+            <basic name="xlxdbs">
+                <column name="XLXDBS"/>
+            </basic>
+            <basic name="bdzbs">
+                <column name="BDZBS"/>
+            </basic>
+            <basic name="sszzdzcbh">
+                <column name="SSZZDZCBH"/>
+            </basic>
+            <basic name="sszbzcbh">
+                <column name="SSZBZCBH"/>
+            </basic>
+            <basic name="jldbh">
+                <column name="JLDBH"/>
+            </basic>
+            <basic name="zzdbz">
+                <column name="ZZDBZ"/>
+            </basic>
+            <basic name="zdyhbz">
+                <column name="ZDYHBZ"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
