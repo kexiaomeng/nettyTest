@@ -2,121 +2,421 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e000775-4179-4ab4-bf03-3bc5097246f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SpringAndNettyTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle___commons_csv_20070730_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_pool_commons_pool_1_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javatuples_javatuples_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__redis_clients_jedis_2_1_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_netzwerg_paleo_core_0_10_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_3_0_alpha4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_3_0_alpha4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_client_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_core_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jsonSchema_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_btf_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_jackson_coreutils_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_json_patch_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_json_schema_core_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_json_schema_validator_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_msg_simple_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fge_uri_template_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_libphonenumber_libphonenumber_6_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lihaoyi_fansi_2_12_0_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lihaoyi_fastparse_2_12_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lihaoyi_fastparse_utils_2_12_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lihaoyi_pprint_2_12_0_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lihaoyi_sourcecode_2_12_0_1_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thesamet_scalapb_lenses_2_12_0_8_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thesamet_scalapb_scalapb_runtime_2_12_0_8_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_11_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_12_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_robwin_assertj_swagger_0_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_robwin_markup_document_builder_0_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_robwin_swagger2markup_0_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_swagger2markup_markup_document_builder_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_swagger2markup_swagger2markup_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_swagger2markup_swagger2markup_extension_commons_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_swagger2markup_swagger2markup_spring_restdocs_ext_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_javaslang_javaslang_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_javaslang_javaslang_match_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_33_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_staticdocs_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_compat_spec_parser_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_core_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_parser_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swaydb_data_2_12_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swaydb_macros_2_12_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swaydb_ordering_2_12_0_6.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mailapi_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nl_jworks_markdown_to_asciidoc_markdown_to_asciidoc_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_configuration2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_test_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_9_2_0_8_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_8_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_test_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_13.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7R4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_util_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_parboiled_parboiled_core_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_parboiled_parboiled_java_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_pegdown_pegdown_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_12_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_12_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_common_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_dialects_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_inputs_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_io_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_parsers_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_quasiquotes_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_scalameta_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_semanticdb_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_tokenizers_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_tokens_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_transversers_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalameta_trees_2_12_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_8_0_alpha2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_ext_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j_1_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_restdocs_spring_restdocs_core_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_restdocs_spring_restdocs_mockmvc_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/MyBatisTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/MyBatisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/SbDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/sbimpl/SbDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/vo/SbSecretekey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/resources/conf.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/resources/datasource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/MyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/SbDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/SbDaoImpl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/test/java/com/nari/sun/mybatis/SbDaoSpringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/test/java/com/nari/sun/mybatis/SbDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/test/java/com/nari/sun/mybatis/sbimpl/SbDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/dubbotest1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/api/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/api/DemoService2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/consumer/Rest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/consumer/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/DemoService2Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/SpringBoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/resources/dubbo-consumer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/resources/dubbo-provider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/resources/spring-consumer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbotest1/src/main/resources/spring-provider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkCjRw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkCjRw.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkCjSb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkCjSb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkCjd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkCjd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkDb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkDl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkDl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkDlcdzd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkDlcdzd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkWl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/common/listen/model/GkWl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/CjZdssgk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/CjZdssgk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/KhCldzb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/KhCldzb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/RwpzRwbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/RwpzZdrwmbsj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/RwpzZdrwmbsj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/SbYxsimk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/SbYxsimk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/SbYxzd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/SbYxzd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/SbZdzc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/SbZdzc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/XtcsZzjsjz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/XtcsZzjsjz.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/YwRwbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/YwRwbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/ZdcsGgPtrw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/ZdcsGgPtrw.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/ZdcsPtrw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/ZdcsPtrw.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/redis-in-action.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/redis-in-action_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/redis-in-action_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaHandler/KafkaHandler.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisTest/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTest/src/main/java/com/example/demo/AspectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTest/src/main/java/com/example/demo/mybatis/DataObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTest/src/main/java/com/example/demo/mybatis/Iservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTest/src/main/java/com/example/demo/mybatis/SbSecretekey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTest/src/main/java/com/example/demo/mybatis/dao/DruidConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTest/src/main/java/com/example/demo/mybatis/dao/IDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTest/src/main/java/com/example/demo/mybatis/dao/IDaoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTest/src/main/java/com/example/demo/mybatis/service/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTest/src/main/java/com/example/demo/mybatis/service/IserviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/ApollotestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/TestJavaConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/condition/LinuxCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/condition/ServiceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/condition/TestCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/condition/WindowsCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/condition/dirservice/IListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/condition/dirservice/LInuxListdir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/condition/dirservice/WindowsListdir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/refresh/RefreshTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/consumer/consumer/Consmuer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/resources/consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provide/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provide/src/main/java/provider/ProviderApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provide/src/main/java/provider/impl/ProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-provide/src/main/resources/provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubboapi/dubboapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubboapi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubboapi/src/main/java/api/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettyhelloClient/src/main/java/com/sun/test/NettyEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redistest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redistest/src/main/java/com/tracy/redis/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redistest/src/main/java/com/tracy/redis/ZsetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redistest/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redistest/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_DB_PZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_DB_PZ.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_DB_PZX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_DB_PZX.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_GY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_GY.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_GY_CS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_GY_CS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_GY_CSPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_RWX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/nari/sun/vo/GK_RWX.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbootnetty/src/main/resources/rebel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nettyTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nettyTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nettyTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redistest/redistest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettyHello/nettyHello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nettyHello/nettyHello.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisTest/MyBatisTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisTest/MyBatisTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/MyBatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/SbDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/SbDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisTest/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisTest/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/dubbotest1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/cccccon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/api/DemoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/api/DemoService2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/consumer/Rest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/consumer/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/DemoService2Impl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/DemoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/SpringBoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-consumer/src/main/java/consumer/ConsumerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/resources/dubbo-consumer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/resources/dubbo-provider.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/resources/spring-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTest/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbotest1/src/main/resources/spring-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-provide/src/main/resources/spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nettyhelloClient/nettyhelloClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nettyhelloClient/nettyhelloClient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettyhelloClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nettyhelloClient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettyhelloClient/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/nettyhelloClient/src/main/java/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nettyhelloClient/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/nettyhelloClient/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettyhelloClient/src/main/java/com/sun/test/MyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/nettyhelloClient/src/main/java/com/sun/test/MyClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettyhelloClient/target/classes/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/nettyhelloClient/target/classes/Client$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nettyhelloClient/target/classes/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/nettyhelloClient/target/classes/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettyhelloClient/target/classes/Server$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nettyhelloClient/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/nettyhelloClient/target/classes/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/NettyListenr.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/NettyListenr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettyhelloClient/target/classes/com/sun/test/MyClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/nettyhelloClient/target/classes/com/sun/test/MyClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootnetty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootnetty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/SpringbootnettyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/SpringbootnettyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/server/MyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/server/MyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/server/ServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/server/ServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootnetty/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springbootnetty/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springbootnetty/src/main/resources/nettyserve.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springbootnetty/src/main/resources/nettyserve.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/.project" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/Aop.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/Aop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/profile/ProfileTestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/profile/ProfileTestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/event/EventConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/event/EventConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/event/EventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/event/EventTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/event/MyEevent.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/event/MyEevent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/event/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/event/MyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/event/PublishEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/event/PublishEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/schedule/ScheduleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/schedule/ScheduleConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/schedule/ScheduleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/schedule/ScheduleServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/schedule/ScheduleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/schedule/ScheduleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/thread/ThreadConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/thread/ThreadConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/thread/ThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/thread/ThreadServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/spring/thread/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/spring/thread/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/java/tracy/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/java/tracy/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/src/main/resources/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/src/main/resources/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/META-INF/maven/tracy/tracy/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/META-INF/maven/tracy/tracy/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/META-INF/maven/tracy/tracy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/META-INF/maven/tracy/tracy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/Aop.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/Aop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/profile/ProfileTestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/profile/ProfileTestConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/event/EventConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/event/EventConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/event/EventTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/event/EventTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/event/MyEevent.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/event/MyEevent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/event/MyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/event/MyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/event/PublishEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/event/PublishEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/schedule/ScheduleConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/schedule/ScheduleConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/schedule/ScheduleServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/schedule/ScheduleServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/schedule/ScheduleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/schedule/ScheduleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/thread/ThreadConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/thread/ThreadConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/thread/ThreadServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/thread/ThreadServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/spring/thread/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/spring/thread/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracy/target/classes/tracy/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAdvance/target/classes/tracy/test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/nettyHello/target/" />
     <ignored path="$PROJECT_DIR$/nettyhelloClient/target/" />
@@ -126,11 +426,37 @@
     <ignored path="$PROJECT_DIR$/dubbotest/target/" />
     <ignored path="$PROJECT_DIR$/dubbotest/dubbotest/target/" />
     <ignored path="$PROJECT_DIR$/dubbotest1/target/" />
+    <ignored path="$PROJECT_DIR$/SpringBootTest/target/" />
+    <ignored path="$PROJECT_DIR$/Dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/apollotest/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/redistest/target/" />
+    <ignored path="$PROJECT_DIR$/redis-inaction/.gradle/" />
+    <ignored path="$PROJECT_DIR$/redis-inaction/build/" />
+    <ignored path="$PROJECT_DIR$/redis-inaction/out/" />
+    <ignored path="$PROJECT_DIR$/KafkaHandler/target/" />
+    <ignored path="$PROJECT_DIR$/dubbotest/provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubbotest/consumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbotest/api/target/" />
+    <ignored path="$PROJECT_DIR$/test/target/" />
+    <ignored path="$PROJECT_DIR$/testprovider/target/" />
+    <ignored path="$PROJECT_DIR$/testconsumer/target/" />
+    <ignored path="$PROJECT_DIR$/provider11/target/" />
+    <ignored path="$PROJECT_DIR$/dubboapi/target/" />
+    <ignored path="$PROJECT_DIR$/dubboprovider/target/" />
+    <ignored path="$PROJECT_DIR$/dubboprovider/dubboconsumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubboconsumer/target/" />
+    <ignored path="$PROJECT_DIR$/ppppppro/target/" />
+    <ignored path="$PROJECT_DIR$/cccccon/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-provide/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -146,10 +472,40 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="sonar@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Apollo@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Apollo@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Apollo@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ssm-seconds-kill: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Apollo@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ssm-seconds-kill: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="stock: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/redis-inaction">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="939089647">
@@ -208,37 +564,85 @@
     <session id="-1484720264">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="61" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.101" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.117" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="6" />
+          <entry key="project.open.time.27" value="3" />
           <entry key="project.open.time.28" value="2" />
-          <entry key="project.open.time.29" value="2" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.29" value="3" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.30" value="2" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.33" value="2" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.31" value="3" />
+          <entry key="project.open.time.32" value="5" />
+          <entry key="project.open.time.33" value="4" />
+          <entry key="project.open.time.34" value="3" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.36" value="4" />
+          <entry key="project.open.time.37" value="3" />
+          <entry key="project.open.time.38" value="4" />
+          <entry key="project.open.time.39" value="2" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.41" value="4" />
+          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.51" value="2" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.69" value="2" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.open.time.94" value="1" />
+          <entry key="project.opened" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="CJ_GJSJ_DDY" value="5" />
-          <entry key="CJ_RWQSJL" value="20" />
+          <entry key="A" value="1" />
+          <entry key="A_ARCH_INFO_STAT_D" value="2" />
+          <entry key="BF_QX_XTYH" value="1" />
+          <entry key="CJ_DBSJ" value="1" />
+          <entry key="CJ_GJSJ" value="2" />
+          <entry key="CJ_GJSJ_DDY" value="10" />
+          <entry key="CJ_GK_FL" value="2" />
+          <entry key="CJ_RWQSJL" value="21" />
           <entry key="CJ_ZDSSGK" value="2" />
+          <entry key="GK_CJD" value="1" />
+          <entry key="GK_CJ_SB" value="17" />
+          <entry key="GK_DB" value="1" />
+          <entry key="GK_DB_PZX" value="1" />
+          <entry key="GK_DL" value="1" />
           <entry key="KH_CLDZB" value="5" />
+          <entry key="KH_JLD" value="1" />
+          <entry key="LW_SECRETEKEY" value="1" />
           <entry key="MyMapper" value="1" />
           <entry key="PRIMARY_KEY_5" value="2" />
           <entry key="Persistence/JavaeeElement:/19dda8cb/Entities/nettyhello/jpa/JPA/PersistenceModel" value="1" />
@@ -248,63 +652,120 @@
           <entry key="QZJ_MP_DAY_READ" value="2" />
           <entry key="RWPZ_RWBC" value="20" />
           <entry key="RWPZ_ZDRWMBSJ" value="1" />
-          <entry key="SB_SECRETEKEY" value="22" />
-          <entry key="SB_YXSIMK" value="2" />
-          <entry key="SB_YXZD" value="4" />
+          <entry key="SB_SECRETEKEY" value="28" />
+          <entry key="SB_YXSIMK" value="4" />
+          <entry key="SB_YXZD" value="10" />
           <entry key="SB_ZDPZRW" value="5" />
-          <entry key="SB_ZDZC" value="2" />
-          <entry key="SB_ZZRWMB" value="4" />
+          <entry key="SB_ZDZC" value="3" />
+          <entry key="SB_ZZRWMB" value="5" />
           <entry key="SbDaoImpl" value="1" />
           <entry key="TMP_QZJ_DAY_DYHGLTJ" value="4" />
+          <entry key="T_CJDXX" value="3" />
+          <entry key="T_DLXX" value="1" />
+          <entry key="T_KTCJSJ" value="2" />
+          <entry key="T_LORAWGDA" value="6" />
+          <entry key="T_LSBW" value="2" />
+          <entry key="T_WDSBCJSJ" value="1" />
           <entry key="UK_SB_SECRETEKEY" value="1" />
-          <entry key="VW_YXZD" value="2" />
+          <entry key="VW_YXZD" value="5" />
           <entry key="YW_RWBC" value="2" />
-          <entry key="active_rule_parameters" value="1" />
+          <entry key="ZZ_GK_WL_0328" value="1" />
+          <entry key="active_rule_parameters" value="2" />
           <entry key="active_rules" value="1" />
-          <entry key="class" value="26" />
+          <entry key="app" value="1" />
+          <entry key="appnamespace" value="1" />
+          <entry key="authorities" value="1" />
+          <entry key="cj_rbphl" value="1" />
+          <entry key="class" value="103" />
+          <entry key="cluster" value="1" />
+          <entry key="cmd" value="2" />
+          <entry key="consumer" value="1" />
+          <entry key="consumeraudit" value="1" />
+          <entry key="consumerrole" value="1" />
+          <entry key="consumertoken" value="1" />
+          <entry key="dtd" value="1" />
+          <entry key="factories" value="8" />
+          <entry key="favorite" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="groups" value="2" />
-          <entry key="iml" value="3" />
-          <entry key="java" value="95" />
-          <entry key="log" value="4" />
-          <entry key="pom" value="3" />
-          <entry key="properties" value="7" />
-          <entry key="sql" value="21" />
-          <entry key="xml" value="60" />
+          <entry key="iml" value="14" />
+          <entry key="java" value="493" />
+          <entry key="log" value="5" />
+          <entry key="md" value="1" />
+          <entry key="mvnw" value="1" />
+          <entry key="permission" value="1" />
+          <entry key="pom" value="24" />
+          <entry key="project" value="1" />
+          <entry key="properties" value="39" />
+          <entry key="qzj_mp_rbphl" value="1" />
+          <entry key="role" value="1" />
+          <entry key="rolepermission" value="1" />
+          <entry key="serverconfig" value="1" />
+          <entry key="sql" value="57" />
+          <entry key="stock" value="1" />
+          <entry key="stock_order" value="1" />
+          <entry key="student" value="2" />
+          <entry key="student_copy" value="1" />
+          <entry key="t_cjdxx" value="7" />
+          <entry key="t_dlxx" value="5" />
+          <entry key="t_ktcjkz" value="1" />
+          <entry key="t_ktcjsj" value="10" />
+          <entry key="t_ktda" value="4" />
+          <entry key="t_lorasjmkda" value="6" />
+          <entry key="t_lorawgda" value="8" />
+          <entry key="t_lsbw" value="5" />
+          <entry key="t_wdsbcjsj" value="5" />
+          <entry key="xml" value="197" />
           <entry key="xsd" value="3" />
+          <entry key="yml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="26" />
-          <entry key="Database Element" value="112" />
-          <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="95" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Properties" value="7" />
-          <entry key="SQL" value="6" />
-          <entry key="Scratch" value="18" />
+          <entry key="CLASS" value="103" />
+          <entry key="DTD" value="1" />
+          <entry key="Database Element" value="257" />
+          <entry key="Eclipse" value="1" />
+          <entry key="IDEA_MODULE" value="14" />
+          <entry key="JAVA" value="493" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Properties" value="39" />
+          <entry key="SQL" value="8" />
+          <entry key="Scratch" value="52" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="67" />
+          <entry key="XML" value="225" />
+          <entry key="YAML" value="10" />
+          <entry key="spring.factories" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="122" />
+          <entry key="cell" value="512" />
           <entry key="class" value="11359" />
-          <entry key="java" value="3247" />
-          <entry key="properties" value="23" />
-          <entry key="sql" value="2076" />
-          <entry key="xml" value="1492" />
+          <entry key="gitignore" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="10472" />
+          <entry key="project" value="1" />
+          <entry key="properties" value="308" />
+          <entry key="sql" value="4252" />
+          <entry key="txt" value="104" />
+          <entry key="xml" value="2236" />
+          <entry key="yml" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="11359" />
-          <entry key="JAVA" value="3247" />
-          <entry key="Properties" value="23" />
-          <entry key="SQL" value="89" />
-          <entry key="Scratch" value="2140" />
-          <entry key="XML" value="1461" />
+          <entry key="Eclipse" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="10472" />
+          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="Properties" value="308" />
+          <entry key="SQL" value="400" />
+          <entry key="Scratch" value="4395" />
+          <entry key="XML" value="2205" />
+          <entry key="YAML" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -316,88 +777,71 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_9.sql">
+        <entry file="file://$PROJECT_DIR$/dubbo-provide/src/main/java/provider/ProviderApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="209">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/SbDaoImpl.xml">
+        <entry file="file://$PROJECT_DIR$/dubbo-provide/src/main/java/provider/impl/ProviderImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="171">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/consumer/ConsumerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/consumer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-provide/src/main/resources/provider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nettyhelloClient/src/main/java/com/sun/test/MyClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/dubbo-provide/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="64" selection-start-line="14" selection-start-column="3" selection-end-line="83" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBatisTest/src/main/resources/mybatis-config.xml">
+        <entry file="file://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.pom">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/MyMapper.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/SbDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nettyhelloClient/src/main/java/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/resources/spring-provider.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/resources/dubbo-provider.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -406,8 +850,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -422,67 +867,339 @@
       <find>append</find>
       <find>join</find>
       <find>cur</find>
+      <find>NUMBER</find>
+      <find>aspe</find>
+      <find>WEB_CONTEXT_CLASS</find>
+      <find>enableSche</find>
+      <find>main</find>
+      <find>assert</find>
     </findStrings>
+    <replaceStrings>
+      <replace>numeric</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$/redis-inaction" value="C:\Users\kexia\.gradle\wrapper\dists\gradle-2.0-all\evtta6k9rngqxp6sxbf6unsdw\gradle-2.0" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$/redis-inaction" value="2.0" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="redis-in-action" />
+              <option name="path" value="$PROJECT_DIR$/redis-inaction" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="redis-in-action" />
+                <option name="path" value="$PROJECT_DIR$/redis-inaction" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$/redis-inaction">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a JVM application along with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="installApp" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a JVM application with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a JVM application with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/redis-inaction" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/redis-inaction" value="4615089540000" />
+        <entry key="$PROJECT_DIR$/redis-inaction/build.gradle" value="4077375827" />
+        <entry key="$PROJECT_DIR$/redis-inaction/gradle/wrapper/gradle-wrapper.properties" value="3379989271" />
+        <entry key="$PROJECT_DIR$/redis-inaction/settings.gradle" value="500950768" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$/redis-inaction">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/redis-inaction">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/redis-inaction" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="redis-in-action" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/core-impl" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/cpp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/language-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/sonar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-base-services-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-base-services-groovy-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-cli-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-core-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-docs-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-launcher-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-messaging-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-native-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-open-api-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-resources-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-tooling-api-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-ui-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/gradle-wrapper-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/groovy-all-2.3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-announce-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-antlr-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-build-comparison-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-build-init-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-code-quality-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-core-impl-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-cpp-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-diagnostics-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-ear-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-ide-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-ivy-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-jacoco-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-javascript-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-jetty-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-language-base-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-language-jvm-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-maven-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-osgi-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-plugin-use-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-plugins-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-publish-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-reporting-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-resources-http-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-scala-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-signing-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/gradle-sonar-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/evtta6k9rngqxp6sxbf6unsdw/gradle-2.0/lib/plugins/ivy-2.2.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/MyBatisTest.java" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/SbDaoImpl" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/test/java/com/nari/sun/mybatis/sbimpl/SbDaoImplTest.java" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/SbDaoImpl.xml" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/test/java/com/nari/sun/mybatis/sbimpl/SbDaoTest.java" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/resources/conf.properties" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/test/java/com/nari/sun/mybatis/SbDaoTest.java" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/sbimpl/SbDaoImpl.java" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/SbDao.xml" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/SbDao.java" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/test/java/com/nari/sun/mybatis/SbDaoSpringTest.java" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/MyBatisTest/pom.xml" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/resources/datasource.properties" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/MyBatisTest/src/main/java/com/nari/sun/mybatis/Test.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_3.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_2.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_4.sql" />
-        <option value="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/ZdcsPtrw.java" />
-        <option value="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/RwpzRwbc.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console.sql" />
-        <option value="$PROJECT_DIR$/springbootnetty/src/main/java/zxb/vo/CjZdssgk.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_5.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_6.sql" />
-        <option value="$PROJECT_DIR$/dubbotest/src/main/java/com/sun/dubbo/api/DemoService.java" />
-        <option value="$PROJECT_DIR$/dubbotest/src/main/java/com/sun/dubbo/provider/dubbo-provider.xml" />
-        <option value="$PROJECT_DIR$/dubbotest/src/main/java/com/sun/dubbo/provider/spring-provider.xml" />
-        <option value="$PROJECT_DIR$/dubbotest/src/main/java/com/sun/dubbo/provider/DemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dubbotest/src/main/java/com/sun/dubbo/provider/Test.java" />
+        <option value="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/server/Server.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c36cab8f-d839-4899-80bd-5f7e9539e7c9/console_8.sql" />
+        <option value="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/server/ServerConfig.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c36cab8f-d839-4899-80bd-5f7e9539e7c9/console_9.sql" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/example/demo/refresh/RefreshTest.java" />
+        <option value="$PROJECT_DIR$/redistest/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/redistest/src/main/java/com/tracy/redis/RedisTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c36cab8f-d839-4899-80bd-5f7e9539e7c9/console_10.sql" />
+        <option value="$PROJECT_DIR$/redis-inaction/src/main/java/Chapter04.java" />
+        <option value="$PROJECT_DIR$/KafkaHandler/.project" />
+        <option value="$PROJECT_DIR$/redis-inaction/src/main/java/Chapter05.java" />
+        <option value="$PROJECT_DIR$/redistest/src/main/java/com/tracy/redis/ZsetTest.java" />
+        <option value="$PROJECT_DIR$/redistest/pom.xml" />
+        <option value="$PROJECT_DIR$/redistest/src/test/java/Test.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ff45980e-55b4-4cb2-8226-493a058f07d5/console_5.sql" />
+        <option value="$PROJECT_DIR$/dubbotest/api/src/main/java/com/tracy/dubbo/api/IService.java" />
+        <option value="$PROJECT_DIR$/dubbotest/consumer/src/main/resources/spring-consumer.xml" />
+        <option value="$PROJECT_DIR$/dubbotest/provider/src/main/resources/spring-provider.xml" />
+        <option value="$PROJECT_DIR$/dubbotest/provider/src/main/java/com/tracy/dubbo/api/impl/ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbotest/consumer/src/main/java/com/tracy/dubbo/api/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/dubbotest/consumer/src/main/java/com/tracy/dubbo/api/consumer/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/dubbotest/provider/src/main/resources/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/dubbotest/consumer/src/main/resources/dubbo-consumer.xml" />
+        <option value="$PROJECT_DIR$/dubbotest/provider/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/dubbotest/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/api/DemoService.java" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/Test.java" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/resources/spring-provider.xml" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/resources/spring-consumer.xml" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/consumer/Rest.java" />
-        <option value="$PROJECT_DIR$/nettyhelloClient/src/main/java/Server.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_7.sql" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/DemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/SpringBoot.java" />
-        <option value="$PROJECT_DIR$/dubbotest1/pom.xml" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/DemoService2Impl.java" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/api/DemoService2.java" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/resources/dubbo-provider.xml" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/resources/dubbo-consumer.xml" />
-        <option value="$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/consumer/Test.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_8.sql" />
-        <option value="I:/Java/netty/nettyTest/FRONT_PUBLIC_GK_WL.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_1.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_9.sql" />
+        <option value="$PROJECT_DIR$/dubbotest/dubbotest.iml" />
+        <option value="$PROJECT_DIR$/dubbotest/provider/src/main/java/com/tracy/dubbo/api/impl/ProviderApplication.java" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/testprovider/src/main/java/impl/ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/testconsumer/src/main/java/consumer/Consumer.java" />
+        <option value="$PROJECT_DIR$/testprovider/src/main/java/impl/ProviderApplication.java" />
+        <option value="$PROJECT_DIR$/KafkaHandler/pom.xml" />
+        <option value="$PROJECT_DIR$/testprovider/testprovider.iml" />
+        <option value="$PROJECT_DIR$/testconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/testprovider/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/testprovider/pom.xml" />
+        <option value="$PROJECT_DIR$/provider11/pom.xml" />
+        <option value="$PROJECT_DIR$/provider11/src/main/java/impl/ProviderApplication.java" />
+        <option value="$PROJECT_DIR$/dubboapi/src/main/java/api/IService.java" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/resources/provider.xml" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/java/provider/impl/ProviderImpl.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/consumer/consumer/Consmuer.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/java/consumer/ConsumerApp.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/src/main/resources/consumer.xml" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/dubboprovider/src/main/java/provider/ProviderApp.java" />
+        <option value="$PROJECT_DIR$/dubboconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubboprovider/pom.xml" />
+        <option value="$PROJECT_DIR$/ppppppro/pom.xml" />
+        <option value="$PROJECT_DIR$/cccccon/pom.xml" />
+        <option value="$PROJECT_DIR$/cccccon/src/main/resources/consumer.xml" />
       </list>
     </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -508,17 +1225,42 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MyBatisTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="KafkaHandler" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="KafkaHandler" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="KafkaHandler" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="KafkaHandler" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="swagger2markup" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="nettyhello" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="nettyhello" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="-7" />
-    <option name="width" value="1295" />
-    <option name="height" value="735" />
+    <option name="x" value="325" />
+    <option name="y" value="129" />
+    <option name="width" value="1401" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -529,16 +1271,13 @@
             <id>Android</id>
           </State>
           <State>
+            <id>Ant</id>
+          </State>
+          <State>
             <id>CorrectnessLintAndroid</id>
           </State>
           <State>
-            <id>IconsUsabilityLintAndroid</id>
-          </State>
-          <State>
-            <id>Internationalization</id>
-          </State>
-          <State>
-            <id>InternationalizationJava</id>
+            <id>Inheritance issuesJava</id>
           </State>
           <State>
             <id>InternationalizationLintAndroid</id>
@@ -547,48 +1286,49 @@
             <id>Java</id>
           </State>
           <State>
-            <id>Java 7Java language level migration aidsJava</id>
+            <id>Java 5Java language level migration aidsJava</id>
           </State>
           <State>
             <id>Java language level migration aidsJava</id>
           </State>
           <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
             <id>LintAndroid</id>
           </State>
           <State>
-            <id>Maven</id>
+            <id>LintLintAndroid</id>
+          </State>
+          <State>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
           </State>
           <State>
             <id>PerformanceLintAndroid</id>
           </State>
           <State>
+            <id>PortabilityJava</id>
+          </State>
+          <State>
             <id>Probable bugsJava</id>
           </State>
           <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
+            <id>SecurityLintAndroid</id>
           </State>
           <State>
             <id>UsabilityLintAndroid</id>
           </State>
-          <State>
-            <id>WebSocket</id>
-          </State>
-          <State>
-            <id>XMLSpring CoreSpring</id>
-          </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>MavenModelInspection</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -609,107 +1349,7 @@
             <path>
               <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="MyBatisTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="MyBatisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="MyBatisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="MyBatisTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="nettyhelloClient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="nettyhelloClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="nettyhelloClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="nettyhelloClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="nettyhelloClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootnetty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootnetty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootnetty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootnetty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootnetty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zxb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nettyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootnetty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zxb" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-provide" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -731,37 +1371,38 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="h2&#10;mysql" />
+    <property name="DatabaseDriversLRU" value="h2&#10;oracle&#10;mysql" />
     <property name="JPA.DatabaseSchemaImportDialog" value="d77ddcd3-a172-4f04-bc69-9fa33aaf6e45" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550820674698" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561799701881" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari" />
-    <property name="last_opened_file_path" value="I:/Java/netty/nettyTest" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/springbootnetty/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo-provide" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.nari.sun.vo" />
+      <recent name="" />
       <recent name="zxb.common.listen.model.facekafka" />
       <recent name="zxb.common.listen.model" />
-      <recent name="" />
       <recent name="zxb.vo" />
-      <recent name="com.sun.nari" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.nari.sun.mybatis.sbimpl" />
@@ -771,28 +1412,30 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
       <recent name="com.nari.sun.mybatis.sbimpl" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tracy.dubbo.api.impl" />
+      <recent name="com.example.demo.condition.dirservice" />
+      <recent name="com.example" />
       <recent name="com.sun.dubbo.provider" />
       <recent name="com.sun.dubbo.api" />
-      <recent name="com.nari.sun.mybatis" />
-      <recent name="com.sun.nari.springbootnetty.com.sun.nari.springbootnetty.util" />
-      <recent name="com.sun.nari.springbootnetty.com.sun.nari.springbootnetty.server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\netty\nettyTest\nettyTest\dubbotest1\src\main\resources" />
-      <recent name="E:\netty\nettyTest\nettyTest\MyBatisTest\src\main\resources" />
-      <recent name="E:\netty\nettyTest\nettyTest\MyBatisTest\src\main\resources\mapper" />
-      <recent name="E:\netty\nettyTest\nettyTest\MyBatisTest\src\main\java\com\nari\sun\vo" />
+      <recent name="E:\netty\nettyTest\nettyTest\cccccon\src\main\resources" />
+      <recent name="E:\netty\nettyTest\nettyTest\cccccon\src\main\java" />
+      <recent name="E:\netty\nettyTest\nettyTest\ppppppro\src\main\resources" />
+      <recent name="E:\netty\nettyTest\nettyTest\ppppppro\src\main\java" />
+      <recent name="E:\netty\nettyTest\nettyTest\dubboprovider\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\netty\nettyTest\nettyTest\dubbotest2" />
-      <recent name="E:\netty\nettyTest\nettyTest" />
-      <recent name="E:\netty\nettyTest\nettyTest\dubbotest\src\test\java" />
-      <recent name="E:\netty\nettyTest\nettyTest\dubbotest\src\main\resources" />
-      <recent name="E:\netty\nettyTest\nettyTest\MyBatisTest\src\main\resources\mapper" />
+      <recent name="E:\netty\nettyTest\nettyTest\dubboprovider\src\main\resources" />
+      <recent name="E:\netty\nettyTest\nettyTest\dubboprovider\src" />
+      <recent name="E:\netty\nettyTest\nettyTest\test\src\main\java" />
+      <recent name="E:\netty\nettyTest\nettyTest\dubbotest\provider\src\main\resources" />
+      <recent name="E:\netty\nettyTest\nettyTest\apollotest\src\main\resources\META-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -807,13 +1450,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (3)">
-    <configuration name="SpringBoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sun.dubbo.provider.SpringBoot" />
-      <module name="dubbotest1" />
+  <component name="RunManager" selected="Spring Boot.ConsumerApp (1)">
+    <configuration name="ProviderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="provider.ProviderApp" />
+      <module name="dubboprovider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sun.dubbo.provider.*" />
+          <option name="PATTERN" value="provider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -821,53 +1464,143 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test " type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.sun.dubbo.provider.Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sun.dubbo.provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MymmmmBatis" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/MyBatisTest" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map>
+                <entry key="my" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/MyBatisTest" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApollotestApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="apollo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.ApollotestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sun.dubbo.provider.Test" />
-      <module name="dubbotest1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sun.dubbo.provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="KafkaHandler" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nari.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sun.dubbo.consumer.Test" />
-      <module name="dubbotest1" />
+    <configuration name="ConsumerApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cccccon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sun.dubbo.consumer.*" />
+          <option name="PATTERN" value="consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="consumer.ConsumerApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nari.sun.mybatis.Test" />
-      <module name="MyBatisTest" />
+    <configuration name="ConsumerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dubboconsumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nari.sun.mybatis.*" />
+          <option name="PATTERN" value="consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="consumer.ConsumerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DubboTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ppppppro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="provider.ProviderApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubboprovider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="provider.ProviderApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="provider11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="impl.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBootTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.SpringBootTestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -880,20 +1613,26 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Maven.MymmmmBatis" />
       <item itemvalue="Spring Boot.SpringbootnettyApplication" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (2)" />
-      <item itemvalue="Application.Test (3)" />
-      <item itemvalue="Application.Test " />
-      <item itemvalue="Application.SpringBoot" />
+      <item itemvalue="Spring Boot.SpringBootTestApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.ApollotestApplication (2)" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.ProviderApp" />
+      <item itemvalue="Spring Boot.ProviderApplication (1)" />
+      <item itemvalue="Application.ProviderApp" />
+      <item itemvalue="Spring Boot.ConsumerApp" />
+      <item itemvalue="Spring Boot.ProviderApp (1)" />
+      <item itemvalue="Spring Boot.ConsumerApp (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.SpringBoot" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test " />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Spring Boot.ConsumerApp (1)" />
+        <item itemvalue="Spring Boot.ProviderApp (1)" />
+        <item itemvalue="Spring Boot.ConsumerApp" />
+        <item itemvalue="Application.ProviderApp" />
+        <item itemvalue="Spring Boot.ProviderApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -943,7 +1682,85 @@
       <workItem from="1550195469811" duration="4467000" />
       <workItem from="1550540290605" duration="6353000" />
       <workItem from="1550749186915" duration="10285000" />
-      <workItem from="1550819444555" duration="1220000" />
+      <workItem from="1550819444555" duration="3013000" />
+      <workItem from="1551411541359" duration="429000" />
+      <workItem from="1551661958366" duration="6367000" />
+      <workItem from="1551707255337" duration="4939000" />
+      <workItem from="1551756289602" duration="9696000" />
+      <workItem from="1552272190899" duration="613000" />
+      <workItem from="1552303050876" duration="5399000" />
+      <workItem from="1552480574943" duration="1192000" />
+      <workItem from="1552481844148" duration="624000" />
+      <workItem from="1552564630176" duration="1403000" />
+      <workItem from="1552648504123" duration="591000" />
+      <workItem from="1552983582393" duration="40000" />
+      <workItem from="1553827556870" duration="6028000" />
+      <workItem from="1554206685184" duration="3052000" />
+      <workItem from="1554282088872" duration="1186000" />
+      <workItem from="1554686042657" duration="60000" />
+      <workItem from="1555660692135" duration="3341000" />
+      <workItem from="1555726889489" duration="1651000" />
+      <workItem from="1555898894669" duration="591000" />
+      <workItem from="1556264975069" duration="6847000" />
+      <workItem from="1556414207574" duration="12769000" />
+      <workItem from="1556461052621" duration="295000" />
+      <workItem from="1556502963773" duration="13044000" />
+      <workItem from="1556594986523" duration="9620000" />
+      <workItem from="1557043350577" duration="1679000" />
+      <workItem from="1557047317040" duration="2295000" />
+      <workItem from="1557106416520" duration="1939000" />
+      <workItem from="1557195393743" duration="5383000" />
+      <workItem from="1557404709312" duration="1372000" />
+      <workItem from="1557795794943" duration="1325000" />
+      <workItem from="1557803465052" duration="1246000" />
+      <workItem from="1557804764780" duration="281000" />
+      <workItem from="1557806928909" duration="8198000" />
+      <workItem from="1557883172582" duration="7379000" />
+      <workItem from="1557923917381" duration="1427000" />
+      <workItem from="1557936318387" duration="1566000" />
+      <workItem from="1557972301299" duration="736000" />
+      <workItem from="1557973148598" duration="2002000" />
+      <workItem from="1558146502056" duration="586000" />
+      <workItem from="1558319618734" duration="1181000" />
+      <workItem from="1558422734025" duration="37000" />
+      <workItem from="1558440056424" duration="2924000" />
+      <workItem from="1558488589452" duration="9091000" />
+      <workItem from="1558574702687" duration="16000" />
+      <workItem from="1558684315686" duration="8084000" />
+      <workItem from="1558942940835" duration="5684000" />
+      <workItem from="1558960410130" duration="1056000" />
+      <workItem from="1558963362194" duration="3021000" />
+      <workItem from="1559009790701" duration="11253000" />
+      <workItem from="1559095932008" duration="3612000" />
+      <workItem from="1559140581751" duration="4326000" />
+      <workItem from="1559182127092" duration="1376000" />
+      <workItem from="1559204095243" duration="12346000" />
+      <workItem from="1559307762896" duration="1255000" />
+      <workItem from="1559531181581" duration="8249000" />
+      <workItem from="1559617156652" duration="6211000" />
+      <workItem from="1559697713511" duration="8172000" />
+      <workItem from="1559991717223" duration="2984000" />
+      <workItem from="1560153284633" duration="692000" />
+      <workItem from="1560216700890" duration="6300000" />
+      <workItem from="1560499057685" duration="5337000" />
+      <workItem from="1560579486857" duration="5719000" />
+      <workItem from="1560738246292" duration="5281000" />
+      <workItem from="1560754642089" duration="733000" />
+      <workItem from="1561031418246" duration="603000" />
+      <workItem from="1561083061033" duration="3586000" />
+      <workItem from="1561369355478" duration="831000" />
+      <workItem from="1561443005637" duration="11713000" />
+      <workItem from="1561532299919" duration="8175000" />
+      <workItem from="1561598572224" duration="4519000" />
+      <workItem from="1561628250736" duration="7700000" />
+      <workItem from="1561686535350" duration="4469000" />
+      <workItem from="1561702825911" duration="605000" />
+      <workItem from="1561705106976" duration="7273000" />
+      <workItem from="1561720591002" duration="3779000" />
+      <workItem from="1561724435730" duration="3184000" />
+      <workItem from="1561727768348" duration="1783000" />
+      <workItem from="1561729668762" duration="1148000" />
+      <workItem from="1561799025017" duration="656000" />
     </task>
     <task id="LOCAL-00001" summary="'nettyhello first'">
       <created>1539076097004</created>
@@ -959,22 +1776,17 @@
       <option name="project" value="LOCAL" />
       <updated>1539088824987</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="'nettyserverandclient'">
+      <created>1550820986665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550820986665</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SbDaoSpringTest - 2019.01.15 at 17h 58m 22s.xml">
-      <configuration name="SbDaoSpringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SbDaoSpringTest - 2019.01.15 at 17h 59m 23s.xml">
-      <configuration name="SbDaoSpringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SbDaoSpringTest - 2019.01.15 at 19h 13m 01s.xml">
-      <configuration name="SbDaoSpringTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SbDaoSpringTest - 2019.01.15 at 19h 25m 47s.xml">
-      <configuration name="SbDaoSpringTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SbDaoSpringTest - 2019.01.15 at 19h 27m 32s.xml">
       <configuration name="SbDaoSpringTest" configurationId="JUnit" />
     </history-entry>
@@ -993,9 +1805,21 @@
     <history-entry file="SbDaoSpringTest - 2019.01.15 at 19h 37m 20s.xml">
       <configuration name="SbDaoSpringTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_Features_in__java - 2019.03.11 at 20h 07m 39s.xml">
+      <configuration name="All Features in: java" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ApollotestApplicationTests - 2019.04.29 at 15h 16m 02s.xml">
+      <configuration name="ApollotestApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2019.06.28 at 10h 30m 08s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test1 - 2019.06.28 at 10h 30m 39s.xml">
+      <configuration name="Test.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192867000" />
+    <option name="totallyTimeSpent" value="496815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1009,47 +1833,80 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.48387095" side_tool="true" weight="0.15138593" />
+      <window_info id="Structure" order="0" sideWeight="0.30325443" side_tool="true" weight="0.17110874" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.48387095" side_tool="true" weight="0.15138593" />
-      <window_info id="Persistence" order="6" sideWeight="0.48504984" side_tool="true" visible="true" weight="0.15298508" />
-      <window_info content_ui="combo" x="595" y="147" width="176" height="434" id="Project" order="7" sideWeight="0.51495016" visible="true" weight="0.15298508" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" sideWeight="0.4989339" weight="0.3277592" />
-      <window_info anchor="bottom" id="Spring" order="0" weight="0.32887402" />
+      <window_info id="Favorites" order="5" sideWeight="0.30325443" side_tool="true" weight="0.17110874" />
+      <window_info id="Persistence" order="6" sideWeight="0.3429603" side_tool="true" weight="0.26515764" />
+      <window_info active="true" content_ui="combo" x="595" y="147" width="176" height="434" id="Project" order="7" sideWeight="0.6532887" visible="true" weight="0.3107676" />
+      <window_info id="Web" order="8" sideWeight="0.34671125" side_tool="true" weight="0.2489339" />
+      <window_info id="JRebel" order="9" sideWeight="0.34671125" side_tool="true" weight="0.2489339" />
+      <window_info anchor="bottom" id="Spring" order="0" sideWeight="0.4978678" weight="0.32887402" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Database Console" order="2" sideWeight="0.7627932" weight="0.20512821" />
-      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49973246" weight="0.3199554" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.84911716" weight="0.5719063" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="2" sideWeight="0.83528787" weight="0.3979933" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.4946695" weight="0.3188406" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.80810237" visible="true" weight="0.33779263" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.4978678" weight="0.56075805" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" visible="true" weight="0.32887402" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899627" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32887402" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48487142" weight="0.32664436" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49733475" weight="0.3277592" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.32552955" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.19189766" side_tool="true" weight="0.21404682" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4552239" weight="0.548495" />
       <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.4989339" weight="0.32873562" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49866238" weight="0.32899627" />
-      <window_info anchor="bottom" id="Database Changes" order="14" sideWeight="0.4989339" weight="0.6187291" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.4978678" weight="0.32887402" />
+      <window_info anchor="bottom" id="Database Changes" order="14" sideWeight="0.49840087" weight="0.6187291" />
       <window_info anchor="bottom" id="SonarQube" order="15" sideWeight="0.6791045" weight="0.32998884" />
       <window_info anchor="bottom" id="SQL Generator" order="16" sideWeight="0.4978678" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="SonarLint" order="17" sideWeight="0.4978678" weight="0.32664436" />
+      <window_info anchor="bottom" id="Problems" order="18" sideWeight="0.49946696" weight="0.32998884" />
+      <window_info anchor="bottom" id="JRebel Executor" order="19" sideWeight="0.54850745" weight="0.580825" />
+      <window_info anchor="bottom" id="JRebel Console" order="20" sideWeight="0.16329831" side_tool="true" weight="0.48494983" />
+      <window_info anchor="bottom" id="Build" order="21" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.14660247" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.14605543" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.21588486" />
+      <window_info anchor="right" id="Database" order="5" weight="0.30703625" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32958803" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.32942432" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="Redis Servers" order="10" />
+      <window_info anchor="right" id="Gradle" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1057,361 +1914,250 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="'nettyhello first'" />
     <MESSAGE value="'nettyserverandclient -1'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'nettyserverandclient -1'" />
+    <MESSAGE value="'nettyserverandclient'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'nettyserverandclient'" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootTest/src/main/java/com/example/demo/mybatis/DataObject.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nettyhelloClient/src/main/java/com/sun/test/MyHandler.java">
+    <entry file="file://$PROJECT_DIR$/dubbotest/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/test/src/main/java/api/IService.java" />
+    <entry file="file://$PROJECT_DIR$/test/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/testconsumer/src/main/java/consumer/Consumer.java" />
+    <entry file="file://$PROJECT_DIR$/SpringBootTest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="-1376">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/channel/ChannelHandlerAdapter.class">
+    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-228" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nettyhelloClient/pom.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.6.6/dubbo-2.6.6.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/github/swagger2markup/swagger2markup-spring-restdocs-ext/1.3.1/swagger2markup-spring-restdocs-ext-1.3.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/apache-maven-3.5.2-bin/apache-maven-3.5.2/lib/maven-model-builder-3.5.2.jar!/org/apache/maven/model/pom-4.0.0.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="183">
+          <caret line="53" column="15" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/view/VW_YXZD">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/SpringbootnettyApplication.java">
+    <entry file="file://$PROJECT_DIR$/KafkaHandler/src/main/java/com/nari/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nettyhelloClient/src/main/java/Client.java">
+    <entry file="file://$PROJECT_DIR$/testprovider/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/testconsumer/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/KafkaHandler/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="2869">
+          <caret line="151" column="31" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/handler/codec/string/StringDecoder.class">
+    <entry file="file://$PROJECT_DIR$/testconsumer/src/main/java/consumer/ConsumerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/testprovider/testprovider.iml" />
+    <entry file="file://$PROJECT_DIR$/testprovider/src/main/java/impl/ServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/testprovider/src/main/resources/dubbo-provider.xml" />
+    <entry file="file://$PROJECT_DIR$/testconsumer/testconsumer.iml" />
+    <entry file="file://$PROJECT_DIR$/testprovider/src/main/java/impl/ProviderApplication.java" />
+    <entry file="file://$PROJECT_DIR$/testprovider/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/provider11/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/provider11/src/main/resources/dubbo-provider.xml" />
+    <entry file="file://$PROJECT_DIR$/provider11/src/main/java/impl/ProviderApplication.java" />
+    <entry file="file://$MAVEN_REPOSITORY$/io/swaydb/ordering_2.12/0.6/ordering_2.12-0.6.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboapi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboapi/src/main/java/api/IService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="38">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springbootnetty/src/main/java/com/sun/nari/springbootnetty/server/MyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/QZJ_GJSJ_DDY">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/RWPZ_RWBC">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/RWPZ_ZDRWMBSJ">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/SB_SECRETEKEY">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/SB_YXSIMK">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/SB_YXZD">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_7.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/consumer/Rest.java">
+    <entry file="file://$PROJECT_DIR$/dubboprovider/dubboconsumer/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/consumer/consumer/Consmuer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" selection-start-line="4" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/api/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="20" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/api/DemoService2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/SpringBoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/resources/spring-consumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/consumer/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/resources/dubbo-consumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3a2b394-f041-4ced-b354-b5dd32239e11/schema/sonar/table/active_rules">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3a2b394-f041-4ced-b354-b5dd32239e11/schema/sonar/table/active_rule_parameters">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3a2b394-f041-4ced-b354-b5dd32239e11/schema/sonar/table/groups">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/QZJ_DAY_DYHGLTJ">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/SB_ZDZC">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/KH_CLDZB">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_8.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/QZJ_MP_DAY_READ">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/CJ_ZDSSGK">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/QZJ_GJSJ_GDY">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/TMP_QZJ_DAY_DYHGLTJ">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/CJ_RWQSJL">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/database/FRONT/schema/PUBLIC/table/CJ_GJSJ_DDY">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://I:/Java/netty/nettyTest/FRONT_PUBLIC_GK_WL.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/java/com/sun/dubbo/provider/DemoService2Impl.java">
+    <entry file="file://$PROJECT_DIR$/dubboprovider/dubboprovider.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-          </folding>
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBatisTest/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/MyMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/SbDao.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.0/dubbo-2.7.0.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
+        <state relative-caret-position="-4446" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nettyhelloClient/src/main/java/Server.java">
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="551">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/resources/spring-provider.xml">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.4.RELEASE/spring-boot-2.0.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbotest1/src/main/resources/dubbo-provider.xml">
+    <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/provider/impl/ProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.10.RELEASE/spring-context-5.0.10.RELEASE-sources.jar!/org/springframework/context/annotation/ImportResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/resources/provider.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console.sql">
+    <entry file="file://$PROJECT_DIR$/dubboprovider/src/main/java/provider/ProviderApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d77ddcd3-a172-4f04-bc69-9fa33aaf6e45/console_9.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBatisTest/src/main/resources/mapper/SbDaoImpl.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nettyhelloClient/src/main/java/com/sun/test/MyClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="114">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboprovider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="60" selection-start-line="60" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/curator/apache-curator/4.2.0/apache-curator-4.2.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3876" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/curator/apache-curator/2.12.0/apache-curator-2.12.0.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provide/src/main/java/provider/ProviderApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provide/src/main/java/provider/impl/ProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/java/consumer/ConsumerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/java/consumer/ConsumerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provide/src/main/resources/provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubboconsumer/src/main/resources/consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/src/main/resources/consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-provide/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="64" selection-start-line="14" selection-start-column="3" selection-end-line="83" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1444,6 +2190,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>scala-sdk-2.12.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1467,12 +2214,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>dubbotest</last-edited>
+          <last-edited>dubboconsumer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

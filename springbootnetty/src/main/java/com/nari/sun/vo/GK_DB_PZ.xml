@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.nari.sun.vo.GK_DB_PZ">
+        <table name="GK_DB_PZ" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="PZ_BH">
+                <column name="PZ_BH"/>
+            </id>
+            <basic name="PZ_MC">
+                <column name="PZ_MC"/>
+            </basic>
+            <basic name="SCCJ_BH">
+                <column name="SCCJ_BH"/>
+            </basic>
+            <basic name="XH_BH">
+                <column name="XH_BH"/>
+            </basic>
+            <basic name="SC_RQ">
+                <column name="SC_RQ"/>
+            </basic>
+            <basic name="GY_BH">
+                <column name="GY_BH"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

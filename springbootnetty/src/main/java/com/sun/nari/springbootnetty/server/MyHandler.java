@@ -18,7 +18,7 @@ public class MyHandler extends ChannelHandlerAdapter {
             close = true;
         }
 
-        ChannelFuture future = ctx.writeAndFlush("back to client");
+        ChannelFuture future = ctx.writeAndFlush("gggggg");
         if (close) {
             future.addListener(ChannelFutureListener.CLOSE);
         }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.nari.sun.vo.GK_RWX">
+        <table name="GK_RWX" schema="PUBLIC" catalog="FRONT"/>
+        <attributes>
+            <id name="RWX_BH">
+                <column name="RWX_BH"/>
+            </id>
+            <basic name="MB_BH">
+                <column name="MB_BH"/>
+            </basic>
+            <basic name="RW_LX">
+                <column name="RW_LX"/>
+            </basic>
+            <basic name="RW_JG">
+                <column name="RW_JG"/>
+            </basic>
+            <basic name="CS_YC">
+                <column name="CS_YC"/>
+            </basic>
+            <basic name="CJ_SJ">
+                <column name="CJ_SJ"/>
+            </basic>
+            <basic name="RW_MC">
+                <column name="RW_MC"/>
+            </basic>
+            <basic name="CZSJ">
+                <column name="CZSJ"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

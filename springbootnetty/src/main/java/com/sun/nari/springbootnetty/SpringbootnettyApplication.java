@@ -16,7 +16,7 @@ public class SpringbootnettyApplication implements  CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        log.info("netty for spring boot start");
+//        log.info("netty for spring boot start");
 //        Server server = SpringContextUtil.getBean("server", null);
 //        server.bind();
     }

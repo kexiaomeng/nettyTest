@@ -25,7 +25,11 @@ public class MyBatisTest {
             InputStream stream = Resources.getResourceAsStream(file);
             SqlSessionFactory sessionFactory = new SqlSessionFactoryBuilder().build(stream);
             SqlSession session = sessionFactory.openSession();
-            SbSecretekey sbSecretekey = (SbSecretekey)session.selectOne("MyMapper.selectZD","1111");
+            session.getConfiguration().addMapper(SbDao.class); // annatation需要主动添加mapper
+            SbDao sbDao = session.getMapper(SbDao.class);
+            SbSecretekey sbSecretekey = sbDao.getSbSecretekeyByZddz("11111111");
+
+//            SbSecretekey sbSecretekey = (SbSecretekey)session.selectOne("MyMapper.selectZD","1111");
             logger.debug(sbSecretekey.getSecretekey());
             session.close();
 

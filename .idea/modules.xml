@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/KafkaHandler/KafkaHandler.iml" filepath="$PROJECT_DIR$/KafkaHandler/KafkaHandler.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyBatisTest/MyBatisTest.iml" filepath="$PROJECT_DIR$/MyBatisTest/MyBatisTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbotest1/dubbotest1.iml" filepath="$PROJECT_DIR$/dubbotest1/dubbotest1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/nettyTest.iml" filepath="$PROJECT_DIR$/.idea/nettyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringAndNettyTest.iml" filepath="$PROJECT_DIR$/.idea/SpringAndNettyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" filepath="$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/apollo.iml" filepath="$PROJECT_DIR$/demo/apollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-consumer/cccccon.iml" filepath="$PROJECT_DIR$/dubbo-consumer/cccccon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboapi/dubboapi.iml" filepath="$PROJECT_DIR$/dubboapi/dubboapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettyhello/nettyhello.iml" filepath="$PROJECT_DIR$/nettyhello/nettyhello.iml" />
       <module fileurl="file://$PROJECT_DIR$/nettyhelloClient/nettyhelloClient.iml" filepath="$PROJECT_DIR$/nettyhelloClient/nettyhelloClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-provide/ppppppro.iml" filepath="$PROJECT_DIR$/dubbo-provide/ppppppro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/redis-in-action.iml" filepath="$PROJECT_DIR$/.idea/modules/redis-in-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/redis-in-action_main.iml" filepath="$PROJECT_DIR$/.idea/modules/redis-in-action_main.iml" group="redis-in-action" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/redis-in-action_test.iml" filepath="$PROJECT_DIR$/.idea/modules/redis-in-action_test.iml" group="redis-in-action" />
+      <module fileurl="file://$PROJECT_DIR$/redistest/redistest.iml" filepath="$PROJECT_DIR$/redistest/redistest.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootnetty/springbootnetty.iml" filepath="$PROJECT_DIR$/springbootnetty/springbootnetty.iml" />
     </modules>
   </component>

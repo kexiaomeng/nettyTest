@@ -9,6 +9,7 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
+import jdk.nashorn.internal.ir.WhileNode;
 
 public class Server {
     private EventLoopGroup bossGroup = new NioEventLoopGroup();
@@ -33,11 +34,18 @@ public class Server {
 
                         }
                     })
+
                     .option(ChannelOption.SO_BACKLOG, 1024);
 
             ChannelFuture future = bootstrap.bind(port).sync();
+/**/
+            while(true) {
+                System.out.println("dfdfdfdfdfd");
+                Thread.sleep(10000);
 
-            future.channel().closeFuture().sync();
+            }
+//            future.channel().closeFuture().sync();
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         }finally {

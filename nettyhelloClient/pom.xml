@@ -6,7 +6,11 @@
 
     <groupId>nettyhello</groupId>
     <artifactId>nettyhelloClient</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>../dubbotest</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncodeing>UTF-8</project.reporting.outputEncodeing>
@@ -14,6 +18,15 @@
 
 
     <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <version>2.1.4.RELEASE</version>
+        </dependency>
+
+
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>

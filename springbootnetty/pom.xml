@@ -6,7 +6,10 @@
     <groupId>com.sun.nari</groupId>
     <artifactId>springbootnetty</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>../dubboapi</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>springbootnetty</name>
     <description>Demo project for Spring Boot</description>
@@ -33,10 +36,10 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.2</version>
-            <scope>provided</scope>
-        </dependency>
+            <version>1.18.6</version>
 
+            <optional>true</optional>
+        </dependency>
 
         <dependency>
             <groupId>io.netty</groupId>
@@ -49,6 +52,8 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+
     </dependencies>
 
     <build>

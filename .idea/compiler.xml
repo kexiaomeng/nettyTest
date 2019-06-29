@@ -2,27 +2,53 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbotest1" />
+        <module name="api" />
+        <module name="apollo" />
+        <module name="consumer" />
+        <module name="KafkaHandler" />
         <module name="MyBatisTest" />
         <module name="nettyhello" />
-        <module name="nettyhelloClient" />
-        <module name="springbootnetty" />
+        <module name="ppppppro" />
+        <module name="provider" />
+        <module name="redistest" />
+        <module name="SpringBootTest" />
+      </profile>
+      <profile name="Annotation profile for cccccon" enabled="true">
+        <sourceOutputDir name="../cccccon/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../cccccon/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cccccon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api" target="1.5" />
+      <module name="apollo" target="1.8" />
+      <module name="cccccon" target="1.5" />
+      <module name="consumer" target="1.5" />
+      <module name="dubboapi" target="1.8" />
+      <module name="dubboconsumer" target="1.5" />
+      <module name="dubboprovider" target="1.8" />
       <module name="dubbotest" target="1.5" />
-      <module name="dubbotest1" target="1.8" />
-      <module name="dubbotest2" target="1.5" />
+      <module name="KafkaHandler" target="1.7" />
       <module name="MyBatisTest" target="7" />
-      <module name="nettyHello" target="1.5" />
       <module name="nettyhello" target="1.5" />
       <module name="nettyhelloClient" target="1.5" />
+      <module name="ppppppro" target="1.5" />
+      <module name="provider" target="1.5" />
+      <module name="provider11" target="1.5" />
+      <module name="redis-in-action_main" target="1.8" />
+      <module name="redis-in-action_test" target="1.8" />
+      <module name="redistest" target="1.5" />
       <module name="springbootnetty" target="1.8" />
-      <module name="springnetty" target="1.8" />
+      <module name="SpringBootTest" target="1.8" />
+      <module name="test" target="1.5" />
+      <module name="testconsumer" target="1.5" />
+      <module name="testprovider" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

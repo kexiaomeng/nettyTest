@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.nari.sun.vo.GK_GY_CS">
+        <table name="GK_GY_CS" schema="PUBLIC" catalog="FRONT"/>
+        <id-class class="com.nari.sun.vo.GK_GY_CSPK"/>
+        <attributes>
+            <id name="GY_BH">
+                <column name="GY_BH"/>
+            </id>
+            <id name="CS_MC">
+                <column name="CS_MC"/>
+            </id>
+            <basic name="CSZ">
+                <column name="CSZ"/>
+            </basic>
+            <basic name="CS_XH">
+                <column name="CS_XH"/>
+            </basic>
+            <basic name="BH">
+                <column name="BH"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

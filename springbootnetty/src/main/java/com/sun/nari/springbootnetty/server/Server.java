@@ -13,7 +13,9 @@ import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
-import lombok.extern.slf4j.Slf4j;
+//import lombok.extern.slf4j.Slf4j;
+import jdk.nashorn.internal.objects.annotations.Getter;
+import lombok.extern.slf4j.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -57,7 +59,6 @@ public class Server {
             e.printStackTrace();
         } finally {
             log.info("服务端退出");
-            System.out.print("youyatuichu");
             bossGroup.shutdownGracefully();
             workGroup.shutdownGracefully();
         }
