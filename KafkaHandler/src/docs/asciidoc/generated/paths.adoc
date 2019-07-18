@@ -1,0 +1,55 @@
+
+[[_paths]]
+== Resources
+
+[[_638374f92e6ac1589299ddf84dcdb14c]]
+=== 卡夫卡相关接口
+提供kafka相关的 Rest API
+
+
+[[_testswaggerusingpost_7]]
+==== 测试使用
+....
+POST /kafka/test
+....
+
+
+===== Description
+测试使用，输入随机两个参数
+
+
+===== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4,.^2"]
+|===
+|Type|Name|Description|Schema|Default
+|**Query**|**name** +
+__required__|名称|string|`"name"`
+|**Query**|**value** +
+__required__|值|string|`"name"`
+|===
+
+
+===== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|string
+|**204**|No Content|No Content
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|===
+
+
+===== Consumes
+
+* `application/json`
+
+
+===== Produces
+
+* `application/json;charset=UTF-8`
+
+
+

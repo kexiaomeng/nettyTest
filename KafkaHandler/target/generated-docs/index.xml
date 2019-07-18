@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="3"?>
+<?asciidoc-numbered?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Spring Boot中使用Swagger2构建RESTful APIs</title>
+<date>2019-07-02</date>
+</info>
+<chapter xml:id="_overview">
+<title>Overview</title>
+<simpara>更多请关注http://www.baidu.com</simpara>
+<section xml:id="_version_information">
+<title>Version information</title>
+<simpara><emphasis>Version</emphasis> : 1.0</simpara>
+</section>
+<section xml:id="_contact_information">
+<title>Contact information</title>
+<simpara><emphasis>Contact</emphasis> : sunf</simpara>
+</section>
+<section xml:id="_license_information">
+<title>License information</title>
+<simpara><emphasis>Terms of service</emphasis> : <link xl:href="http://www.baidu.com">http://www.baidu.com</link></simpara>
+</section>
+<section xml:id="_uri_scheme">
+<title>URI scheme</title>
+<simpara><emphasis>Host</emphasis> : localhost<?asciidoc-br?>
+<emphasis>BasePath</emphasis> : /</simpara>
+</section>
+<section xml:id="_tags">
+<title>Tags</title>
+<itemizedlist>
+<listitem>
+<simpara>卡夫卡相关接口 : 提供kafka相关的 Rest API</simpara>
+</listitem>
+</itemizedlist>
+</section>
+</chapter>
+</book>

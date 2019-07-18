@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 根标签 -->
+<configuration>
+    <properties resource="conf.properties">
+        <property name="driver" value="org.h2.Driver"/>
+        <property name="url" value="jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front"/>
+        <property name="username" value="AMR"/>
+        <property name="password" value="AMR"/>
+    </properties>
+
+    <!--<settings>-->
+
+        <!--&lt;!&ndash;<setting name="jdbcTypeForNull" value="OTHER"/>&ndash;&gt;-->
+        <!--<setting name="mapUnderscoreToCamelCase" value="true"></setting>-->
+    <!--</settings>-->
+
+    <typeAliases >
+        <typeAlias type="com.nari.sun.vo.SbSecretekey" alias="SbSecreteKey"/>
+        <!--<package name="com.nari.sun.vo" />-->
+    </typeAliases>
+
+    <!-- 环境，可以配置多个，default：指定采用哪个环境 -->
+    <environments default="development">
+        <!-- id：唯一标识 -->
+        <!--<environment id="test">-->
+            <!--&lt;!&ndash; 事务管理器，JDBC类型的事务管理器 &ndash;&gt;-->
+            <!--<transactionManager type="JDBC" />-->
+            <!--&lt;!&ndash; 数据源，池类型的数据源 &ndash;&gt;-->
+            <!--&lt;!&ndash;<dataSource type="POOLED">&ndash;&gt;-->
+                <!--&lt;!&ndash;<property name="driver" value="${driver}" /> &lt;!&ndash; 配置了properties，所以可以直接引用 &ndash;&gt;&ndash;&gt;-->
+                <!--&lt;!&ndash;<property name="url" value="${url}" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<property name="username" value="${username}" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<property name="password" value="${password}" />&ndash;&gt;-->
+            <!--&lt;!&ndash;</dataSource>&ndash;&gt;-->
+        <!--</environment>-->
+        <environment id="development">
+            <!-- 事务管理器，JDBC类型的事务管理器 -->
+            <transactionManager type="JDBC" />
+            <!-- 数据源，池类型的数据源 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}" /> <!-- 配置了properties，所以可以直接引用 -->
+                <property name="url" value="${url}" />
+                <property name="username" value="${username}" />
+                <property name="password" value="${password}" />
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--<mapper resource="mapper/MyMapper.xml"/>-->
+        <!--<mapper resource="mapper/SbDaoImpl.xml"/>-->
+        <!--<mapper resource="mapper/SbDao.xml"/>-->
+
+    </mappers>
+</configuration>

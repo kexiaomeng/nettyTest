@@ -1,0 +1,140 @@
+17:34:11.763 logback [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+17:34:11.943 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:11.953 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:11.953 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:11.953 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:12.106 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:12.106 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:12.106 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:12.106 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:12.146 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:12.146 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:12.146 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:34:12.146 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.621 logback [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+17:36:14.781 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.781 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.781 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.781 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.929 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.929 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.929 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.933 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.996 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.996 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.996 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:36:14.996 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:29.751 logback [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+17:37:29.933 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:29.933 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:29.933 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:29.933 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:30.063 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+17:37:30.183 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 306123060.
+17:37:30.183 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn0: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+17:37:30.183 logback [main] DEBUG SbDaoImpl.selectone - ==>  Preparing: select * from SB_SECRETEKEY where ZDDZ = ? 
+17:37:30.266 logback [main] DEBUG SbDaoImpl.selectone - ==> Parameters: 1111(String)
+17:37:30.320 logback [main] DEBUG SbDaoImpl.selectone - <==      Total: 1
+17:37:30.337 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:30.337 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:30.337 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:30.337 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:30.376 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+17:37:30.386 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 2143431083.
+17:37:30.386 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn1: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+17:37:30.386 logback [main] DEBUG SbDaoImpl.selectmany - ==>  Preparing: select * from SB_SECRETEKEY 
+17:37:30.386 logback [main] DEBUG SbDaoImpl.selectmany - ==> Parameters: 
+17:37:30.386 logback [main] DEBUG SbDaoImpl.selectmany - <==      Total: 2
+17:37:30.406 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:30.406 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:30.406 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:30.406 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:37:30.436 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+17:37:30.436 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 2027775614.
+17:37:30.436 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn2: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+17:37:30.436 logback [main] DEBUG SbDaoImpl.insert - ==>  Preparing: insert into SB_SECRETEKEY (ZDDZ,ISSECRETE,SECRETEKEY) values( ?, ?, ?) 
+17:37:30.436 logback [main] DEBUG SbDaoImpl.insert - ==> Parameters: tttt(String), 0(BigDecimal), dfdfdfd(String)
+17:37:30.446 logback [main] DEBUG SbDaoImpl.insert - <==    Updates: 1
+17:38:19.801 logback [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+17:38:20.091 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.101 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.101 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.101 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.251 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+17:38:20.341 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 306123060.
+17:38:20.341 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn0: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+17:38:20.351 logback [main] DEBUG SbDaoImpl.selectone - ==>  Preparing: select * from SB_SECRETEKEY where ZDDZ = ? 
+17:38:20.411 logback [main] DEBUG SbDaoImpl.selectone - ==> Parameters: 1111(String)
+17:38:20.471 logback [main] DEBUG SbDaoImpl.selectone - <==      Total: 1
+17:38:20.491 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.491 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.491 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.491 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.521 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+17:38:20.521 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 2143431083.
+17:38:20.521 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn1: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+17:38:20.521 logback [main] DEBUG SbDaoImpl.selectmany - ==>  Preparing: select * from SB_SECRETEKEY 
+17:38:20.521 logback [main] DEBUG SbDaoImpl.selectmany - ==> Parameters: 
+17:38:20.521 logback [main] DEBUG SbDaoImpl.selectmany - <==      Total: 2
+17:38:20.541 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.541 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.541 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.541 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+17:38:20.591 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+17:38:20.591 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 2027775614.
+17:38:20.591 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn2: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+17:38:20.601 logback [main] DEBUG SbDaoImpl.insert - ==>  Preparing: insert into SB_SECRETEKEY (ZDDZ,ISSECRETE,SECRETEKEY) values( ?, ?, ?) 
+17:38:20.601 logback [main] DEBUG SbDaoImpl.insert - ==> Parameters: gggg(String), 0(BigDecimal), dfdfdfd(String)
+17:38:20.601 logback [main] DEBUG SbDaoImpl.insert - <==    Updates: 1
+17:38:20.601 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [conn2: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+19:10:09.233 logback [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+19:10:09.478 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.478 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.478 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.478 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.618 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+19:10:09.728 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 306123060.
+19:10:09.728 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn0: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+19:10:09.738 logback [main] DEBUG SbDaoImpl.selectone - ==>  Preparing: select * from SB_SECRETEKEY where ZDDZ = ? 
+19:10:09.808 logback [main] DEBUG SbDaoImpl.selectone - ==> Parameters: 1111(String)
+19:10:09.868 logback [main] DEBUG SbDaoImpl.selectone - <==      Total: 1
+19:10:09.900 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.902 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.902 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.902 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.962 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+19:10:09.962 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 2143431083.
+19:10:09.962 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn1: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+19:10:09.962 logback [main] DEBUG SbDaoImpl.selectmany - ==>  Preparing: select * from SB_SECRETEKEY 
+19:10:09.972 logback [main] DEBUG SbDaoImpl.selectmany - ==> Parameters: 
+19:10:09.972 logback [main] DEBUG SbDaoImpl.selectmany - <==      Total: 3
+19:10:09.982 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.982 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.982 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:09.982 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:10:10.032 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+19:10:10.032 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 2027775614.
+19:10:10.032 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn2: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+19:10:10.042 logback [main] DEBUG SbDaoImpl.insert - ==>  Preparing: insert into SB_SECRETEKEY (ZDDZ,ISSECRETE,SECRETEKEY) values( ?, ?, ?) 
+19:10:10.042 logback [main] DEBUG SbDaoImpl.insert - ==> Parameters: gggg(String), 0(BigDecimal), dfdfdfd(String)
+19:15:01.296 logback [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+19:15:01.506 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:15:01.506 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:15:01.516 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:15:01.516 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:15:01.686 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+19:15:01.776 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 1052967153.
+19:15:01.776 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn0: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+19:15:01.786 logback [main] DEBUG SbDaoImpl.update - ==>  Preparing: update SB_SECRETEKEY set ISSECRETE ? ,SECRETEKEY ? where zddz = ? 
+19:15:45.042 logback [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+19:15:45.212 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:15:45.212 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:15:45.212 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:15:45.212 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+19:15:45.376 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+19:15:45.446 logback [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 1052967153.
+19:15:45.446 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [conn0: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]
+19:15:45.456 logback [main] DEBUG SbDaoImpl.update - ==>  Preparing: update SB_SECRETEKEY set ISSECRETE = ? ,SECRETEKEY = ? where zddz = ? 
+19:15:45.516 logback [main] DEBUG SbDaoImpl.update - ==> Parameters: 1(BigDecimal), bbbbbb(String), 1111(String)
+19:15:45.516 logback [main] DEBUG SbDaoImpl.update - <==    Updates: 1
+19:15:45.516 logback [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [conn0: url=jdbc:h2:tcp://localhost/J:/frontcloud/code/h2/bin/archive/front user=AMR]

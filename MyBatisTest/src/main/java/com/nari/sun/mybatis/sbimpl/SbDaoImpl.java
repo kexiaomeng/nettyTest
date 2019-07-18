@@ -4,7 +4,6 @@ import com.nari.sun.mybatis.SbDao;
 import com.nari.sun.vo.SbSecretekey;
 import org.apache.ibatis.session.SqlSession;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 public class SbDaoImpl implements SbDao {

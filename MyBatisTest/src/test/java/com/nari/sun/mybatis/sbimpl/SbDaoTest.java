@@ -1,7 +1,6 @@
 package com.nari.sun.mybatis.sbimpl;
 
 import com.nari.sun.mybatis.SbDao;
-import com.nari.sun.mybatis.sbimpl.SbDaoImpl;
 import com.nari.sun.vo.SbSecretekey;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -14,8 +13,6 @@ import java.io.InputStream;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class SbDaoTest {
 

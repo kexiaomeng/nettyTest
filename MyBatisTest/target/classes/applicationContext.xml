@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans   
+           http://www.springframework.org/schema/beans/spring-beans.xsd  
+           http://www.springframework.org/schema/tx 
+           http://www.springframework.org/schema/tx/spring-tx.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd"
+	>
+
+	<context:component-scan base-package="com.nari.sun.*"/>
+
+	<context:property-placeholder location="classpath:datasource.properties"/>
+
+    <!--<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
+        <!--<property name="locations">-->
+            <!--<list>-->
+                <!--<value>classpath*:datasource.properties</value>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+		<property name="url" value='${jdbc.url}' />
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="username" value="${jdbc.username}" />
+		<!-- 初始化连接大小 -->
+		<!--<property name="initialSize" value="${initialSize}"></property>-->
+		<!-- 连接池最大数据库连接数  0 为没有限制 -->
+		<property name="maxActive" value="${jdbc.maxActive}"/>
+		<!-- 连接池最大的空闲连接数，这里取值为20，表示即使没有数据库连接时依然可以保持20空闲的连接，而不被清除，随时处于待命状态 0 为没有限制 -->
+		<!--<property name="maxIdle" value="${maxIdle}"></property>-->
+		<!-- 连接池最小空闲 -->
+		<!--<property name="minIdle" value="${}"></property>-->
+		<!--最大建立连接等待时间。如果超过此时间将接到异常。设为-1表示无限制-->
+		<property name="maxWait" value="${jdbc.maxWait}"></property>
+
+	</bean>
+
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"/>
+		<!-- 自动扫描mapping.xml文件 -->
+		<property name="mapperLocations" value="classpath:mapper/*.xml"></property>
+		<!--如果mybatis-config.xml没有特殊配置也可以不需要下面的配置-->
+		<property name="configLocation" value="classpath:mybatis-config.xml" />
+	</bean>
+
+	<!-- DAO接口所在包名，Spring会自动查找其下的类 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.nari.sun.*"/>
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+	</bean>
+
+	<!-- (事务管理)transaction manager -->
+	<bean id="transactionManager"
+		  class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+
+	<!--<tx:annotation-driven proxy-target-class="true"/>&lt;!&ndash; 使得spring按照类名解析高鲁鑫 &ndash;&gt;-->
+	<!-- S
+		<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
+         <property name="jdbcUrl" value="jdbc:oracle:thin:@121.40.68.55:1521:sea" />
+		 <property name="user" value="cdz" />
+        <property name="password" value="admin111" />   
+        
+		these are C3P0 properties
+		<property name="acquireIncrement" value="5" />
+		<property name="minPoolSize" value="5" />
+		<property name="maxPoolSize" value="30" />
+		<property name="maxIdleTime" value="60" />
+		<property name="preferredTestQ	uery" value="select 1 from dual"/>
+		<property name="idleConnectionTestPeriod" value="10"/>
+		<property name="acquireRetryAttempts" value="0"></property>		
+		<property name="numHelperThreads" value="8"></property>
+		
+		
+		<property name="automaticTestTable" value="c3p0test"/>		
+		<property name="idleConnectionTestPeriod" value="5"/>
+						
+	</bean>
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">  
+        <property name="dataSource" ref="dataSource"/>  
+        <property name="packagesToScan">  
+            <list>  
+                <value>com.zxb</value>  
+            </list>  
+        </property>  
+        <property name="hibernateProperties">  
+            <props>  
+            	<prop key="hibernate.show_sql">false</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                   
+                <prop key="hibernate.hbm2ddl.auto">update</prop>                 
+                <prop key="hibernate.default_schema">e6kkf</prop>
+               
+                <prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>  
+ 				<prop key="hibernate.cache.use_second_level_cache">false</prop>
+				<prop key="hibernate.cache.use_query_cache">false</prop>
+				
+				<prop key="hibernate.id.new_generator_mappings">true</prop>
+				
+				<prop key="hibernate.cache.region.factory_class">net.sf.ehcache.hibernate.SingletonEhCacheRegionFactory</prop>				
+				<prop key="hibernate.cache.provider_class">com.googlecode.hibernate.memcached.MemcachedCacheProvider</prop>
+				<prop key="hibernate.memcached.servers">192.1.1.27:11211 192.1.1.32:11211</prop>
+				<prop key="hibernate.memcached.cacheTimeSeconds">300</prop>
+				<prop key="hibernate.memcached.keyStrategy">com.googlecode.hibernate.memcached.HashCodeKeyStrategy</prop>
+				<prop key="hibernate.memcached.readBufferSize">16384</prop>
+				<prop key="hibernate.memcached.operationQueueLength">16384</prop>
+				<prop key="hibernate.memcached.operationTimeout">1000</prop>				
+				<prop key="hibernate.memcached.memcacheClientFactory">est.web.cache.EstMemcacheClientFactory</prop>							
+				<prop key="hibernate.memcached.hashAlgorithm">NATIVE_HASH</prop>
+				<prop key="hibernate.memcached.connectionFactory">DefaultConnectionFactory</prop>
+				<prop key="hibernate.memcached.clearSupported">false</prop>
+				
+            </props>  
+        </property>  
+    </bean>  
+        
+    <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">  
+        <property name="sessionFactory" ref="sessionFactory"></property>  
+    </bean>
+     
+		
+	<tx:annotation-driven transaction-manager="transactionManager" />
+	创建Mybatis SqlSessionFactory，同时指定数据源  
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">   
+   	  <property name="dataSource" ref="dataSource" />   
+    </bean>   
+     
+ 	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">  
+   		 <constructor-arg index="0" ref="sqlSessionFactory"/>  
+	</bean> -->  
+	
+</beans>

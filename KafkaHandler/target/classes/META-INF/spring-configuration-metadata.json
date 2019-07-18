@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.nari.Application",
+      "sourceType": "com.nari.Application"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

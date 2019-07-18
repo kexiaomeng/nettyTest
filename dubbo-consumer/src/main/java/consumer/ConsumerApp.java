@@ -20,6 +20,10 @@ public class ConsumerApp implements CommandLineRunner {
     }
 
     public void run(String... args) throws Exception {
-        consmuer.consumer();
+
+        for (int i = 0; i < 10; i++) {
+            consmuer.consumer();
+
+        }
     }
 }

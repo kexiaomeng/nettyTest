@@ -1,0 +1,35 @@
+= Spring Boot中使用Swagger2构建RESTful APIs
+
+
+[[_overview]]
+== Overview
+更多请关注http://www.baidu.com
+
+
+=== Version information
+[%hardbreaks]
+__Version__ : 1.0
+
+
+=== Contact information
+[%hardbreaks]
+__Contact__ : sunf
+
+
+=== License information
+[%hardbreaks]
+__Terms of service__ : http://www.baidu.com
+
+
+=== URI scheme
+[%hardbreaks]
+__Host__ : localhost
+__BasePath__ : /
+
+
+=== Tags
+
+* 卡夫卡相关接口 : 提供kafka相关的 Rest API
+
+
+

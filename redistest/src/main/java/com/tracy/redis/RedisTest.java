@@ -1,11 +1,11 @@
 package com.tracy.redis;
 
 import lombok.extern.slf4j.Slf4j;
+import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisCluster;
 
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 @Slf4j
 public class RedisTest {
@@ -16,6 +16,16 @@ public class RedisTest {
     private static final int ARTICLES_PER_PAGE = 25;
 
     public static void main(String args[]) {
+        //***************************集群**********************
+        Set<HostAndPort> hostAndPorts = new HashSet<>();
+
+        hostAndPorts.add(new HostAndPort("127.0.0.1", 6379));
+
+
+        JedisCluster cluster = new JedisCluster(hostAndPorts,10000, 3);
+        //*****************集群*****************
+
+
         Jedis connection = new Jedis("localhost",6379);
         connection.select(0);
         connection.set("忠钦瑜","女");

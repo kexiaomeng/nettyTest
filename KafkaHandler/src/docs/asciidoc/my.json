@@ -1,0 +1,62 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "更多请关注http://www.baidu.com",
+    "version": "1.0",
+    "title": "Spring Boot中使用Swagger2构建RESTful APIs",
+    "termsOfService": "http://www.baidu.com",
+    "contact": {
+      "name": "sunf"
+    }
+  },
+  "host": "localhost",
+  "basePath": "/",
+  "tags": [{
+    "name": "卡夫卡相关接口",
+    "description": "提供kafka相关的 Rest API"
+  }],
+  "paths": {
+
+    "/kafka/test": {
+      "post": {
+        "tags": ["卡夫卡相关接口"],
+        "summary": "测试使用",
+        "description": "测试使用，输入随机两个参数",
+        "operationId": "testSwaggerUsingPOST_7",
+        "consumes": ["application/json"],
+        "produces": ["application/json;charset=UTF-8"],
+        "parameters": [{
+          "name": "name",
+          "in": "query",
+          "description": "名称",
+          "required": true,
+          "type": "string"
+        }, {
+          "name": "value",
+          "in": "query",
+          "description": "值",
+          "required": true,
+          "type": "string"
+        }],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        },
+        "deprecated": false
+      }
+    }
+  }
+}

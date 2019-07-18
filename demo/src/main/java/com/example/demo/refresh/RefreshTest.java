@@ -6,7 +6,6 @@ package com.example.demo.refresh;//package com.nari.apollotest.refresh;
         import lombok.extern.slf4j.Slf4j;
         import org.springframework.beans.factory.annotation.Autowired;
         import org.springframework.cloud.context.scope.refresh.RefreshScope;
-        import org.springframework.context.annotation.Configuration;
         import org.springframework.stereotype.Component;
         import javax.annotation.Resource;
 
